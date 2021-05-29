@@ -1,0 +1,649 @@
+{
+  "openapi": "3.0.2",
+  "x-commons": {
+    "ratelimit-headers": {
+      "X-RateLimit-Limit": {
+        "$ref": "#/components/headers/X-RateLimit-Limit"
+      },
+      "X-RateLimit-Remaining": {
+        "$ref": "#/components/headers/X-RateLimit-Remaining"
+      },
+      "X-RateLimit-Reset": {
+        "$ref": "#/components/headers/X-RateLimit-Reset"
+      }
+    },
+    "common-responses": {
+      "400": {
+        "$ref": "#/components/responses/400BadRequest"
+      },
+      "429": {
+        "$ref": "#/components/responses/429TooManyRequests"
+      },
+      "503": {
+        "$ref": "#/components/responses/503ServiceUnavailable"
+      },
+      "default": {
+        "$ref": "#/components/responses/default"
+      }
+    }
+  },
+  "info": {
+    "title": "OpenData Emilia Romagna Turismo",
+    "x-summary": "Endpoint ufficiale Emilia Romagna turismo",
+    "description": "L’obiettivo del presente documento è quello di fornire una breve guida all’uso delle API opendata per il sito di Emilia Romagna Turismo. \nPer ogni sezione, sarà specificato l’url dell'endpoint e i possibili filtri che si possono applicare.",
+    "version": "1.0.0",
+    "termsOfService": "http://swagger.io/terms/",
+    "contact": {
+      "email": "info@emiliaromagnaturismo.it",
+      "name": "Walter Manni",
+      "url": "https://emiliaromagnaturismo.it/contatti"
+    },
+    "x-audience": [
+      "General"
+    ],
+    "x-api-id": "bc3c9511-89b1-46e3-8738-a9f32dd0c203",
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "tags": [
+    {
+      "name": "General",
+      "description": "Tutti i dati del portale emilia romagna turismo in opendata"
+    },
+    {
+      "name": "Taxonomies",
+      "description": "Tassonomie del portale emilia romagna turismo in opendata"
+    }
+  ],
+  "servers": [
+    {
+      "url": "https://emiliaromagnaturismo.it/opendata/v1",
+      "description": "Servizio ufficiale opendata turistici della Regione Emilia Romagna"
+    }
+  ],
+  "paths": {
+    "/status": {
+      "get": {
+        "summary": "Ritorna lo stato dell'applicazione.",
+        "description": "Ritorna lo stato dell'applicazione. A scopo\ndi test, su base randomica puo' ritornare\nun errore.\n",
+        "operationId": "get-status",
+        "tags": [
+          "General"
+        ],
+        "responses": {
+          "200": {
+            "description": "Il server ha ritornato lo status. In caso di problemi\nritorna sempre un problem+json.\n"
+          },
+          "400": {
+            "$ref": "#/components/responses/400BadRequest"
+          },
+          "429": {
+            "$ref": "#/components/responses/429TooManyRequests"
+          },
+          "503": {
+            "$ref": "#/components/responses/503ServiceUnavailable"
+          },
+          "default": {
+            "$ref": "#/components/responses/default"
+          }
+        }
+      }
+    },
+    "/cities": {
+      "get": {
+        "tags": [
+          "Taxonomies"
+        ],
+        "summary": "Cities",
+        "description": "Elenco dei comuni disponibili con informazioni sulle province.",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/istat"
+          },
+          {
+            "$ref": "#/components/parameters/prov"
+          },
+          {
+            "$ref": "#/components/parameters/query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "operationId": "cities-index"
+      }
+    },
+    "/events/categories": {
+      "get": {
+        "tags": [
+          "Taxonomies"
+        ],
+        "summary": "Categorie Eventi",
+        "description": "Elenco delle categorie degli eventi.\nGli eventi oltre ai tematismi hanno una loro tassonomia esclusiva.",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/lang"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "operationId": "events-categories-get"
+      }
+    },
+    "/themes": {
+      "get": {
+        "tags": [
+          "Taxonomies"
+        ],
+        "summary": "Tematismi",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/lang"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "description": "Elenco degli elementi della tassonomia tematismi",
+        "operationId": "thems-get"
+      }
+    },
+    "/targets": {
+      "get": {
+        "tags": [
+          "Taxonomies"
+        ],
+        "summary": "Target",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/lang"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "operationId": "target-get",
+        "description": "Elenco degli elementi della tassonomia target"
+      }
+    },
+    "/languages": {
+      "get": {
+        "tags": [
+          "Taxonomies"
+        ],
+        "summary": "Languages",
+        "description": "Elenco delle lingue supportate.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "operationId": "languages-get"
+      }
+    },
+    "/localities": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "summary": "Località",
+        "description": "Elenco delle località.",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/istat"
+          },
+          {
+            "$ref": "#/components/parameters/prov"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/page"
+          },
+          {
+            "$ref": "#/components/parameters/updated"
+          },
+          {
+            "$ref": "#/components/parameters/query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "operationId": "localities-get"
+      }
+    },
+    "/events": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "summary": "Events",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/lang"
+          },
+          {
+            "$ref": "#/components/parameters/istat"
+          },
+          {
+            "$ref": "#/components/parameters/city"
+          },
+          {
+            "$ref": "#/components/parameters/prov"
+          },
+          {
+            "$ref": "#/components/parameters/page"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/updated"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "operationId": "events-get",
+        "description": "Elenco degli eventi attualmente presenti sul portale di emilia romagna turismo."
+      }
+    },
+    "/news": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "summary": "News",
+        "description": "Elenco delle news.",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/lang"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/page"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "operationId": "news-get"
+      }
+    },
+    "/interests": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "summary": "Interessi",
+        "description": "Elenco delle schede interesse del sito della Regione Emilia Romagna.",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/istat"
+          },
+          {
+            "$ref": "#/components/parameters/prov"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/page"
+          },
+          {
+            "$ref": "#/components/parameters/updated"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "operationId": "interests-get"
+      }
+    },
+    "/itineraries": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "summary": "Itinerari",
+        "description": "Elenco di tutti gli itinerari attualmente disponibili.",
+        "parameters": [
+          {
+            "name": "time",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "enum": [
+                24,
+                48,
+                72
+              ],
+              "minimum": 24,
+              "maximum": 72
+            },
+            "description": "I valori disponibili sono 24,48,72",
+            "example": 48
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/page"
+          },
+          {
+            "$ref": "#/components/parameters/updated"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "operationId": "itineraries-get"
+      }
+    },
+    "/poi": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "summary": "Point of Interest",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/page"
+          },
+          {
+            "$ref": "#/components/parameters/updated"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "operationId": "poi-list-get",
+        "description": "Elenco delle collezioni di punti di interesse (poi) disponibili."
+      }
+    },
+    "/poi/{code}": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "summary": "Point of Interest",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/page"
+          },
+          {
+            "$ref": "#/components/parameters/updated"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "operationId": "poi-single-get",
+        "description": "Collezione di punti di interesse."
+      },
+      "parameters": [
+        {
+          "schema": {
+            "type": "string",
+            "maxLength": 255
+          },
+          "name": "code",
+          "in": "path",
+          "required": true,
+          "description": "Codice identificativo della collezione."
+        }
+      ]
+    },
+    "/images": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "summary": "Images",
+        "description": "Elenco delle immagini accessibili liberamente e inserite nel database di OpenLibrary",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/page"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "x-internal": true,
+        "operationId": "images-get"
+      }
+    },
+    "/webcam": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "summary": "WebCam",
+        "description": "Elenco delle webcam pubbliche disponibili.",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "operationId": "webcam-get",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/page"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ]
+      },
+      "parameters": []
+    }
+  },
+  "components": {
+    "headers": {
+      "X-RateLimit-Limit": {
+        "$ref": "https://teamdigitale.github.io/openapi/0.0.7/definitions.yaml#/headers/X-RateLimit-Limit"
+      },
+      "X-RateLimit-Remaining": {
+        "$ref": "https://teamdigitale.github.io/openapi/0.0.7/definitions.yaml#/headers/X-RateLimit-Remaining"
+      },
+      "X-RateLimit-Reset": {
+        "$ref": "https://teamdigitale.github.io/openapi/0.0.7/definitions.yaml#/headers/X-RateLimit-Reset"
+      },
+      "Retry-After": {
+        "$ref": "https://teamdigitale.github.io/openapi/0.0.7/definitions.yaml#/headers/Retry-After"
+      }
+    },
+    "responses": {
+      "400BadRequest": {
+        "$ref": "https://teamdigitale.github.io/openapi/0.0.7/definitions.yaml#/responses/400BadRequest"
+      },
+      "404NotFound": {
+        "$ref": "https://teamdigitale.github.io/openapi/0.0.7/definitions.yaml#/responses/404NotFound"
+      },
+      "429TooManyRequests": {
+        "$ref": "https://teamdigitale.github.io/openapi/0.0.7/definitions.yaml#/responses/429TooManyRequests"
+      },
+      "503ServiceUnavailable": {
+        "$ref": "https://teamdigitale.github.io/openapi/0.0.7/definitions.yaml#/responses/503ServiceUnavailable"
+      },
+      "default": {
+        "$ref": "https://teamdigitale.github.io/openapi/0.0.7/definitions.yaml#/responses/default"
+      }
+    },
+    "schemas": {
+      "Problem": {
+        "$ref": "https://teamdigitale.github.io/openapi/0.0.7/definitions.yaml#/schemas/Problem"
+      }
+    },
+    "securitySchemes": {},
+    "parameters": {
+      "lang": {
+        "name": "lang",
+        "in": "query",
+        "schema": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "description": "Lingua",
+        "example": "it"
+      },
+      "istat": {
+        "name": "istat",
+        "in": "query",
+        "schema": {
+          "type": "string",
+          "maxLength": 6
+        },
+        "description": "Codice Istat identificativo del comune",
+        "example": "37001"
+      },
+      "city": {
+        "name": "city",
+        "in": "query",
+        "schema": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "description": "Filtro per nome della città, consulta l'endpoint dei comuni per l'elenco di province e comuni supportati",
+        "example": "ravenna"
+      },
+      "prov": {
+        "name": "prov",
+        "in": "query",
+        "schema": {
+          "type": "string",
+          "maxLength": 2
+        },
+        "description": "Filtro per nome della provincia, consulta l'endpoint dei comuni per l'elenco di province e comuni supportati",
+        "example": "BO"
+      },
+      "page": {
+        "name": "page",
+        "in": "query",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "minimum": 1,
+          "maximum": 99999999
+        },
+        "description": "Numero di pagina da interrogare",
+        "example": 1
+      },
+      "limit": {
+        "name": "limit",
+        "in": "query",
+        "schema": {
+          "type": "integer",
+          "format": "int32",
+          "minimum": -1,
+          "maximum": 99999999
+        },
+        "description": "Numero di risultati da restituire per ogni pagina",
+        "example": 1
+      },
+      "updated": {
+        "name": "updated",
+        "in": "query",
+        "schema": {
+          "type": "string",
+          "maxLength": 19
+        },
+        "description": "Data di aggiornamento. Vengono restituiti tutti gli eventi che siano stati modificati dopo la data inserita.",
+        "example": "2020-10-06 00:00:00"
+      },
+      "query": {
+        "name": "query",
+        "in": "query",
+        "schema": {
+          "type": "string",
+          "maxLength": 255
+        },
+        "description": "Ricerca con testo libero",
+        "example": "Bologna"
+      }
+    }
+  }
+}
