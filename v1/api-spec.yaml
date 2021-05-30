@@ -23,11 +23,11 @@ info:
     L’obiettivo del presente documento è quello di fornire una breve guida all’uso delle API opendata per il sito di Emilia Romagna Turismo. 
     Per ogni sezione, sarà specificato l’url dell'endpoint e i possibili filtri che si possono applicare.
   version: 1.0.0
-  termsOfService: 'http://swagger.io/terms/'
+  termsOfService: 'https://emiliaromagnaturismo.it/it/note-legali'
   contact:
     email: info@emiliaromagnaturismo.it
     name: Stefano Vena
-    url: 'https://emiliaromagnaturismo.it/contatti'
+    url: 'https://emiliaromagnaturismo.it/it/chi-siamo'
   x-audience:
     - General
   x-api-id: bc3c9511-89b1-46e3-8738-a9f32dd0c203
