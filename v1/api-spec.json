@@ -35,7 +35,7 @@
     "termsOfService": "http://swagger.io/terms/",
     "contact": {
       "email": "info@emiliaromagnaturismo.it",
-      "name": "Walter Manni",
+      "name": "Stefano Vena",
       "url": "https://emiliaromagnaturismo.it/contatti"
     },
     "x-audience": [
@@ -43,8 +43,8 @@
     ],
     "x-api-id": "bc3c9511-89b1-46e3-8738-a9f32dd0c203",
     "license": {
-      "name": "Creative Commons Attribuzione 4.0 Internazionale",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+      "name": "Condividi allo stesso modo 4.0 Internazionale",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
     }
   },
   "tags": [
