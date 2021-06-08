@@ -29,7 +29,7 @@ info:
     name: Stefano Vena
     url: 'https://emiliaromagnaturismo.it/it/chi-siamo'
   x-audience:
-    - General
+    - public
   x-api-id: bc3c9511-89b1-46e3-8738-a9f32dd0c203
   license:
     name: Condividi allo stesso modo 4.0 Internazionale
@@ -499,7 +499,7 @@ components:
         type: integer
         format: int32
         minimum: -1
-        maximum: 99999999
+        maximum: 1000
       description: Numero di risultati da restituire per ogni pagina
       example: 1
     updated:
