@@ -618,8 +618,8 @@
         "schema": {
           "type": "integer",
           "format": "int32",
-          "minimum": -1,
-          "maximum": 99999999
+          "minimum": 1,
+          "maximum": 1000
         },
         "description": "Numero di risultati da restituire per ogni pagina",
         "example": 1
@@ -631,8 +631,8 @@
           "type": "string",
           "maxLength": 19
         },
-        "description": "Data di aggiornamento. Vengono restituiti tutti gli eventi che siano stati modificati dopo la data inserita.",
-        "example": "2020-10-06 00:00:00"
+        "description": "Data di aggiornamento. Vengono restituiti tutti i contenuti che siano stati modificati dopo la data inserita. La data va inserita in formato [rfc3339](https://www.ietf.org/rfc/rfc3339.txt)",
+        "example": "2020-10-06T07:20:50.52Z"
       },
       "query": {
         "name": "query",
