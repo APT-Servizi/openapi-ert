@@ -245,6 +245,41 @@
         "operationId": "localities-get"
       }
     },
+    "/iat": {
+      "get": {
+        "tags": [
+          "General"
+        ],
+        "summary": "Elenco uffici IAT",
+        "description": "Elenco degli uffici di Informazioni e Accoglienza Turistica.",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/istat"
+          },
+          {
+            "$ref": "#/components/parameters/prov"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/page"
+          },
+          {
+            "$ref": "#/components/parameters/updated"
+          }         
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        },
+        "operationId": "iat-get"
+      }
+    },
     "/events": {
       "get": {
         "tags": [
@@ -399,7 +434,7 @@
     "/poi": {
       "get": {
         "tags": [
-          "General"
+          "Taxonomies"
         ],
         "summary": "Point of Interest",
         "parameters": [
@@ -629,7 +664,7 @@
         "in": "query",
         "schema": {
           "type": "string",
-          "maxLength": 19
+          "maxLength": 23
         },
         "description": "Data di aggiornamento. Vengono restituiti tutti i contenuti che siano stati modificati dopo la data inserita. La data va inserita in formato [rfc3339](https://www.ietf.org/rfc/rfc3339.txt)",
         "example": "2020-10-06T07:20:50.52Z"
