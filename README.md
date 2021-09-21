@@ -1,3 +1,5 @@
+![logo_er](https://user-images.githubusercontent.com/1525536/134203254-f68daf19-29ad-4c7b-998e-9e61f8df4248.png)
+
 # Specifiche OpenAPI Emilia Romagna Turismo
 
 Questo repository contiene le Specifiche OpenAPI per le API del sito turistico 
