@@ -30,7 +30,7 @@
   "info": {
     "title": "OpenData Emilia Romagna Turismo",
     "x-summary": "Endpoint ufficiale Emilia Romagna turismo",
-    "description": "L’obiettivo del presente documento è quello di fornire una breve guida all’uso delle API opendata per il sito di Emilia Romagna Turismo. \nPer ogni sezione, sarà specificato l’url dell'endpoint e i possibili filtri che si possono applicare.",
+    "description": "Questa API permette di consultare i dati che il portale Emilia-Romagna Turismo rende disponibili a tutti gli utenti per favorire il riutilizzo e la nascita di applicazioni da parte di nuovi soggetti e sono rilasciati in (licenza CC-BY)[https://creativecommons.org/licenses/by/4.0/deed.it].\n\nI dati scaricabili da Emilia-Romagna Turismo possono essere utilizzati per ogni scopo, personale o commerciale, senza alcuna limitazione se non la citazione della fonte e vengono aggiornati dalle Redazioni Locali del Sistema Turistico Regionale con cadenza regolare.\n\nLa sezione **General** raccoglie tutti gli endpoint disponibili del portale Emilia Romagna Turismo a cui è possibile richiedere dati.\n\nLa sezione **Tassonomie** espone la struttura interna del Portale Emilia Romagna Turismo secondo cui è possibile filtrare le proprie richieste all’API.",
     "version": "1.0.0",
     "termsOfService": "http://swagger.io/terms/",
     "contact": {
