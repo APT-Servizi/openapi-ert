@@ -439,12 +439,6 @@
         "summary": "Point of Interest",
         "parameters": [
           {
-            "$ref": "#/components/parameters/istat"
-          },
-          {
-            "$ref": "#/components/parameters/prov"
-          },
-          {
             "$ref": "#/components/parameters/limit"
           },
           {
@@ -473,6 +467,12 @@
         ],
         "summary": "Point of Interest",
         "parameters": [
+          {
+            "$ref": "#/components/parameters/istat"
+          },
+          {
+            "$ref": "#/components/parameters/prov"
+          },
           {
             "$ref": "#/components/parameters/limit"
           },

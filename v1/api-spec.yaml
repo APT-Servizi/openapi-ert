@@ -269,8 +269,6 @@ paths:
         - Taxonomies
       summary: Point of Interest
       parameters:
-        - $ref: '#/components/parameters/istat'
-        - $ref: '#/components/parameters/prov'
         - $ref: '#/components/parameters/limit'
         - $ref: '#/components/parameters/page'
         - $ref: '#/components/parameters/updated'
@@ -287,6 +285,8 @@ paths:
         - General
       summary: Point of Interest
       parameters:
+        - $ref: '#/components/parameters/istat'
+        - $ref: '#/components/parameters/prov'
         - $ref: '#/components/parameters/limit'
         - $ref: '#/components/parameters/page'
         - $ref: '#/components/parameters/updated'
