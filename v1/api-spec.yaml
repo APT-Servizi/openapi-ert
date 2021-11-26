@@ -19,11 +19,11 @@ x-commons:
 info:
   title: OpenData Emilia Romagna Turismo
   x-summary: Endpoint ufficiale Emilia Romagna turismo
-  description: |-    
+  description: |-
     Questa API permette di consultare i dati che il portale Emilia-Romagna Turismo rende disponibili a tutti gli utenti per favorire il riutilizzo e la nascita di applicazioni da parte di nuovi soggetti e sono rilasciati in (licenza CC-BY)[https://creativecommons.org/licenses/by/4.0/deed.it].
-    
+
     I dati scaricabili da Emilia-Romagna Turismo possono essere utilizzati per ogni scopo, personale o commerciale, senza alcuna limitazione se non la citazione della fonte e vengono aggiornati dalle Redazioni Locali del Sistema Turistico Regionale con cadenza regolare.
-    
+
     La sezione **General** raccoglie tutti gli endpoint disponibili del portale Emilia Romagna Turismo a cui è possibile richiedere dati.
     La sezione **Tassonomie** espone la struttura interna del Portale Emilia Romagna Turismo secondo cui è possibile filtrare le proprie richieste all’API.
 
@@ -269,6 +269,8 @@ paths:
         - Taxonomies
       summary: Point of Interest
       parameters:
+        - $ref: '#/components/parameters/istat'
+        - $ref: '#/components/parameters/prov'
         - $ref: '#/components/parameters/limit'
         - $ref: '#/components/parameters/page'
         - $ref: '#/components/parameters/updated'
