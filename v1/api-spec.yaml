@@ -190,6 +190,8 @@ paths:
         - $ref: '#/components/parameters/istat'
         - $ref: '#/components/parameters/city'
         - $ref: '#/components/parameters/prov'
+        - $ref: '#/components/parameters/theme'
+        - $ref: '#/components/parameters/category'
         - $ref: '#/components/parameters/page'
         - $ref: '#/components/parameters/limit'
         - $ref: '#/components/parameters/updated'
@@ -507,6 +509,22 @@ components:
         maxLength: 2
       description: 'Filtro per nome della provincia, consulta l''endpoint dei comuni per l''elenco di province e comuni supportati'
       example: BO
+    theme:
+      name: theme
+      in: query
+      schema:
+        type: string
+        maxLength: 6
+      description: 'Codice del tematismo per il quale filtrare'
+      example: '5009'
+    category:
+      name: category
+      in: query
+      schema:
+        type: string
+        maxLength: 6
+      description: 'Codice della categoria per la quale filtrare'
+      example: '1005'
     page:
       name: page
       in: query
