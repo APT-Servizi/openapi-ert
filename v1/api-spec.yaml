@@ -150,6 +150,7 @@ paths:
       summary: Località
       description: Elenco delle località.
       parameters:
+        - $ref: '#/components/parameters/lang'
         - $ref: '#/components/parameters/istat'
         - $ref: '#/components/parameters/prov'
         - $ref: '#/components/parameters/limit'
@@ -225,6 +226,7 @@ paths:
       summary: Interessi
       description: Elenco delle schede interesse del sito della Regione Emilia Romagna.
       parameters:
+        - $ref: '#/components/parameters/lang'
         - $ref: '#/components/parameters/istat'
         - $ref: '#/components/parameters/prov'
         - $ref: '#/components/parameters/limit'
@@ -256,6 +258,7 @@ paths:
             maximum: 72
           description: 'I valori disponibili sono 24,48,72'
           example: 48
+        - $ref: '#/components/parameters/lang'
         - $ref: '#/components/parameters/limit'
         - $ref: '#/components/parameters/page'
         - $ref: '#/components/parameters/updated'

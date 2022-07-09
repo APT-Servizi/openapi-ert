@@ -232,6 +232,9 @@
           },
           {
             "$ref": "#/components/parameters/query"
+          },
+          {
+            "$ref": "#/components/parameters/lang"
           }
         ],
         "responses": {
