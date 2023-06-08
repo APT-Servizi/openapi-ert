@@ -44,6 +44,8 @@ tags:
     description: Tutti i dati del portale emilia romagna turismo in opendata
   - name: Taxonomies
     description: Tassonomie del portale emilia romagna turismo in opendata
+  - name: Eventi
+    description: Tutti i dati del portale emilia romagna turismo in opendata
 servers:
   - url: 'https://emiliaromagnaturismo.it/opendata/v1'
     description: Servizio ufficiale opendata turistici della Regione Emilia Romagna
@@ -342,6 +344,115 @@ paths:
         - $ref: '#/components/parameters/page'
         - $ref: '#/components/parameters/limit'
     parameters: []
+  /event/{id}:
+        parameters:
+            - name: Accept-Language
+              in: header
+              description: 'La lingua preferita per i messaggi di sistema. I valori supportati sono it-IT, en-GB, en-US'
+              example: it-IT
+              required: false
+              schema:
+                  type: string
+                  default: it-IT
+        post:
+            summary: nuovo evento
+            description: |
+                Invia evento al portale
+            operationId: addEvent
+            tags:
+                - Eventi
+            security:
+                - bearerAuth: []
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/Evento'
+            responses:
+                '200':
+                    $ref: '#/components/responses/200SuccessRequest'
+                '400':
+                    $ref: '#/components/responses/400BadRequest'
+                '429':
+                    $ref: '#/components/responses/429TooManyRequests'
+                '503':
+                    $ref: '#/components/responses/503ServiceUnavailable'
+                default:
+                    $ref: '#/components/responses/default'
+        put:
+            summary: aggiorna evento
+            description: |
+                Invia evento al portale
+            operationId: updateEvent
+            tags:
+                - Eventi
+            security:
+                -   bearerAuth: [ ]
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: '#/components/schemas/Evento'
+            responses:
+                '200':
+                    $ref: '#/components/responses/200SuccessRequest'
+                '400':
+                    $ref: '#/components/responses/400BadRequest'
+                '429':
+                    $ref: '#/components/responses/429TooManyRequests'
+                '503':
+                    $ref: '#/components/responses/503ServiceUnavailable'
+                default:
+                    $ref: '#/components/responses/default'
+  /event/lists:
+          get:
+              summary: lista eventi per utente
+              description: |
+                  Recupera gli eventi presenti in piattaforma della redazione relativa all'utente che richiama le API
+              operationId: listEvent
+              tags:
+                  - Eventi
+              security:
+                  -   bearerAuth: [ ]
+
+              responses:
+                  '200':
+                      $ref: '#/components/responses/200SuccessEventListRequest'
+                  '400':
+                      $ref: '#/components/responses/400BadRequest'
+                  '429':
+                      $ref: '#/components/responses/429TooManyRequests'
+                  '503':
+                      $ref: '#/components/responses/503ServiceUnavailable'
+                  default:
+                      $ref: '#/components/responses/default'
+  /login:
+      post:
+          security:
+              -   bearerAuth: [ ]
+          summary: login
+          description: |
+              accesso portale
+          operationId: login
+          tags:
+              - Authentication
+          requestBody:
+              content:
+                  application/json:
+                      schema:
+                          $ref: '#/components/schemas/Login'
+          responses:
+              '200':
+                  $ref: '#/components/responses/200LoginSuccessRequest'
+              '400':
+                  $ref: '#/components/responses/400BadRequest'
+              '404':
+                  $ref: '#/components/responses/404NotFound'
+
+              '429':
+                  $ref: '#/components/responses/429TooManyRequests'
+              '503':
+                  $ref: '#/components/responses/503ServiceUnavailable'
 components:
   headers:
     X-RateLimit-Limit:
@@ -375,6 +486,24 @@ components:
         minimum: 0
         type: integer
   responses:
+    200SuccessRequest:
+        content:
+            application/problem+json:
+                schema:
+                    $ref: '#/components/schemas/success'
+        description: Success
+    200SuccessEventListRequest:
+        content:
+            application/problem+json:
+                schema:
+                    $ref: '#/components/schemas/EventListSListSuccess'
+        description: Success
+    200LoginSuccessRequest:
+        content:
+            application/problem+json:
+                schema:
+                    $ref: '#/components/schemas/LoginSuccess'
+        description: Success
     400BadRequest:
       content:
         application/problem+json:
@@ -418,6 +547,476 @@ components:
             $ref: '#/components/schemas/Problem'
       description: Unexpected error
   schemas:
+    LoginSuccess:
+        properties:
+            status:
+                type: string
+                example: success
+            code:
+                description: HTTP status code
+                example: 200
+                type: integer
+            data:
+                type: object
+                properties:
+                    token_type:
+                        description: tipo di token utilizzato
+                        example: Bearer
+                        type: string
+                    access_token:
+                        description: token di accesso
+                        example: XXXXXXXX
+                        type: string
+    EventListSListSuccess:
+        properties:
+            data:
+                type: object
+                properties:
+                    id:
+                        description: ID scheda
+                        example: 123456
+                        type: integer
+                    title:
+                        description: titolo Evento in IT
+                        example: Diverdeinverde
+                    user:
+                        description: utente che ha creato l'evento
+                        example: Mario Rossi
+                    redazione:
+                        description: redazione a cui appartiene la scheda
+                        example: RL di Rimini
+                    status:
+                        type: integer
+                        example: 1
+                        enum:
+                            - 1
+                            - 2
+                            - 3
+                            - 4
+                        description: |
+                            schema valori
+
+                            * 1: Pubblicato
+                            * 2: Bozza
+                            * 3: Da Validare
+                            * 4: Revisione
+                    created_at:
+                        description: data di creazione
+                        type: string
+                        format: date
+                        example: '2023-02-22 00:00:00'
+                    updated_at:
+                        description: data di ultimo aggiornamento
+                        type: string
+                        format: date
+                        example: '2023-02-22 00:00:00'
+    success:
+        title: problem
+        additionalProperties: false
+        description: |-
+            This schema describes RFC7807 Problem Details for HTTP APIs.
+            The specification is intentionally flexible, and allows to adapt
+            the schema adding further properties, or not enforcing any of the properties
+            below.
+
+            To make this schema safe by default, additionalProperties are forbidden though.
+            In case you need them, you can either re-define Problem or extend it
+            using `allOf`.
+        properties:
+            status:
+                type: string
+                example: success
+            code:
+                description: The HTTP status code
+                example: 200
+                format: int32
+                maximum: 300
+                minimum: 200
+                type: integer
+            data:
+                type: object
+                properties:
+                    id:
+                        description: |
+                            ID evento salvato
+                        example: 39102
+                        type: number
+                    permalink:
+                        description: URL evento
+                        example: https://www.emiliaromagnaturismo.it/it/eventi/39102/6772-diverdeinverde-giardini-aperti
+                        type: string
+                    message:
+                        description: |
+                            A short, summary of the problem type. Written in english and readable
+                            for engineers (usually not suited for non technical stakeholders and
+                            not localized): the expressed pattern does not support unicode characters.
+                        example: Scheda salvata con successo
+                        type: string
+        type: object
+    latitude:
+        title: latitudine
+        description: lat
+        type: number
+        format: float
+        example: 12.34
+        minimum: -90
+        maximum: 90
+    longitude:
+        title: longitudine
+        description: lon
+        type: number
+        format: float
+        example: 56.78
+        minimum: -180
+        maximum: 180
+    contacts_type:
+        type: string
+        enum:
+            - telephone
+            - whatsapp
+            - email
+            - website
+        title: tipo di contatto
+        description: tipologia di contatto richiesto
+    id:
+        type: integer
+        title: ID
+        example: 1234
+        description: codice risorsa univoca
+    name:
+        type: string
+        example: nome risorsa
+        description: nome della risorsa
+    ArrayOfCategories:
+        title: categorie eventi
+        type: array
+        items:
+            title: category
+            type: object
+            properties:
+                id:
+                    type: integer
+                name:
+                    type: string
+        example:
+            - id: 1010
+              name: Mostre
+            - id: 1001
+              name: Cinema
+    portal:
+        type: array
+        description: portale di destinazione
+        items:
+            type: object
+            properties:
+                active:
+                    type: boolean
+                    example: 1
+                name:
+                    type: string
+                    example: Emilia-Romagna
+                    enum:
+                        - Emilia-Romagna
+                        - Emilia
+                        - Romagna
+    Login:
+        type: object
+        properties:
+            username:
+                type: string
+                example: redazionelocale
+                minLength: 4
+            password:
+                type: string
+                format: password
+                minLength: 8
+                pattern: '/(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])/'
+                example: 1234
+        required:
+            - username
+            - password
+    Evento:
+        type: object
+        properties:
+            contents:
+                type: object
+                properties:
+                    it:
+                        type: object
+                        properties:
+                            title:
+                                type: string
+                                example: Diverdeinverde
+                            slug:
+                                type: string
+                                example: 6772-diverdeinverde-giardini-aperti
+                                description: se non specificato l'slug viene generato automaticamente
+                            subtitle:
+                                type: string
+                                description: sottotitolo eveto
+                            canonical:
+                                type: string
+                                example: https://www.bolognawelcome.com/en/events/trekking/diverdeinverde-open-gardens
+                                description: url canonico
+                            pub_date:
+                                type: string
+                                format: date
+                                example: '2023-02-22 00:00:00'
+                                description: data di pubblicazione dell'evento. Se non specificata viene utilizzata la data di invio della scheda.
+                            description:
+                                type: string
+                                example: 'Due giorni per scoprire che <strong>Bologna</strong> è un giardino. <br />Ogni anno, in maggio, Bologna apre alla visita i portoni e i cancelli di numerosi giardini privati'
+                                description: descrizione evento
+                            google:
+                                type: object
+                                properties:
+                                    title:
+                                        type: string
+                                        example: Diverdeinverde - Giardini aperti
+                                    keywords:
+                                        type: string
+                                        example: Diverdeinverde - Giardini aperti
+                                    description:
+                                        type: string
+                                description: meta dati per ottimizzazione SEO
+                        required:
+                            - title
+                            - description
+            locations:
+                type: array
+                items:
+                    type: object
+                    properties:
+                        address:
+                            type: string
+                            example: viale Guglielmo Marconi
+                        number:
+                            type: string
+                            example: 12
+                        lat:
+                            $ref: '#/components/schemas/latitude'
+                        lng:
+                            $ref: '#/components/schemas/longitude'
+                        locality_id:
+                            type: number
+                            example: 125
+                            description: codice localita
+                        city:
+                            required:
+                                - id
+                            type: object
+                            properties:
+                                id:
+                                    type: number
+                                    example: 194
+                                    description: codice città
+                                name:
+                                    type: string
+                                    example: Bologna
+                                    description: nome città
+                                province:
+                                    type: string
+                                    example: Bologna
+                                    description: provincia città
+                                info:
+                                    type: object
+                                    minProperties: 1
+                                    properties:
+                                        it:
+                                            type: string
+                                            example: info extra luogo IT
+                                        en:
+                                            type: string
+                                            example: info extra luogo EN
+            dates:
+                type: object
+                properties:
+                    start:
+                        type: string
+                        format: date
+                        example: '2023/05/27'
+                    end:
+                        type: string
+                        format: date
+                        example: '2023/05/28'
+                    dates:
+                        type: array
+                        items:
+                            type: string
+                        example: [2023/05/27,2023/05/28]
+                        description: |
+                            singole date all'interno dell'intervallo da {start} a {end} che devono essere considerate.
+                            Va indicato solo se non devono essere considerati tutti i giorni all'interno dell'intervallo delle date.
+                    week:
+                        type: array
+                        items:
+                            type: boolean
+                        example: [0,0,0,0,0,1,1]
+                        description: |
+                            schema giorni della settimana evento.
+
+                            * 0:LUN
+                            * 1:MAR
+                            * 2:MER
+                            * 3:GIO
+                            * 4:VEN
+                            * 5:SAB
+                            * 6:DOM
+
+                            esempio riporta: SAB e DOM
+            times:
+                type: object
+                properties:
+                    type:
+                        type: string
+                        example: 'freetext'
+                        enum:
+                            - freetext
+                            - program
+                            - website
+                        description: |
+                            schema valori ammessi
+
+                            * freetext: Orario libero
+                            * program: Rimanda al programma
+                            * website: Rimanda al sito
+                    freetext:
+                        type: object
+                        properties:
+                            it:
+                                type: string
+                                example: Descrizione generica degli orari IT
+                            en:
+                                type: string
+                                example: Descrizione generica degli orari EN
+            contacts:
+                type: object
+                properties:
+                    it:
+                        description: lingua
+                        type: array
+                        items:
+                            type: object
+                            properties:
+                                label:
+                                    type: string
+                                type:
+                                    $ref: '#/components/schemas/contacts_type'
+                                value:
+                                    type: string
+            category:
+                $ref: '#/components/schemas/ArrayOfCategories'
+            attachments:
+                type: array
+                items:
+                    type: object
+                    required:
+                        - url
+                        - url_thumb
+                        - is_primary
+                    properties:
+                        url:
+                            type: string
+                            example: http://d2fg1aan4gy9m1.cloudfront.net/ert/images/4928/Cervia-%28RA%29%2C-Teatro-Comunale-Walter-Chiari%2C-rosone%2C-Archivio-Comune-Cervia-CC-BY-NC-SA-4.0.jpg
+                        url_thumb:
+                            type: string
+                            example: http://d2fg1aan4gy9m1.cloudfront.net/ert/images/4928/conversions/Cervia-%28RA%29%2C-Teatro-Comunale-Walter-Chiari%2C-rosone%2C-Archivio-Comune-Cervia-CC-BY-NC-SA-4.0-thumb.jpg
+                        title:
+                            type: string
+                        copyright:
+                            type: string
+                            example: Cervia (RA), Teatro Comunale Walter Chiari, rosone, Archivio Comune Cervia
+                        license:
+                            type: string
+                        license_url:
+                            type: string
+                        is_primary:
+                            type: boolean
+                            description: indica se è un'immagine di primaria importanza (Es. immagine di copertina)
+                            example: 0
+            ticketing:
+                type: object
+                properties:
+                    ingresso:
+                        type: integer
+                        example: 1
+                        enum:
+                            - 1
+                            - 2
+                            - 3
+                            - 4
+                        description: |
+                            tipologia di ingresso:
+
+                            - 1: A pagamento
+                            - 2: Gratuito
+                            - 3: Alcuni eventi a pagamento
+                            - 4: Rimanda al sito
+
+                    info:
+                        type: object
+                        minProperties: 1
+                        properties:
+                            it:
+                                type: object
+                                properties:
+                                    tariffa_intera:
+                                        type: string
+                                        example: 10 EUR
+                                        description: descrizione tariffa a prezzo pieno
+                                    tariffa_gratuita:
+                                        type: string
+                                        example: bambini sotto i 14 anni
+                                        description: descrizione tariffa gratuita
+                                    tariffa_ridotta:
+                                        type: string
+                                        example: universitari
+                                        description: descrizione tariffa ridotta
+                                    tariffa_abbonamenti:
+                                        type: string
+                                        example: 5 EUR
+                                        description: descrizione tariffa con abbonamento
+                                    sito:
+                                        type: string
+                                        example: https://www.sitoweb.it/evento
+                                        description: sito ufficiale dell'evento
+                            en:
+                                type: object
+                                properties:
+                                    tariffa_intera:
+                                        type: string
+                                        example: 10 EUR
+                                        description: descrizione tariffa a prezzo pieno
+                                    tariffa_gratuita:
+                                        type: string
+                                        example: children under 14
+                                        description: descrizione tariffa gratuita
+                                    tariffa_ridotta:
+                                        type: string
+                                        example: student
+                                        description: descrizione tariffa ridotta
+                                    tariffa_abbonamenti:
+                                        type: string
+                                        example: ticket description
+                                        description: descrizione tariffa con abbonamento
+                                    sito:
+                                        type: string
+                                        example: https://www.sitoweb.it/evento
+                                        description: sito ufficiale dell'evento
+            theme:
+                type: array
+                items:
+                    type: object
+                    properties:
+                        id:
+                            $ref: '#/components/schemas/id'
+                        name:
+                            $ref: '#/components/schemas/name'
+                example:
+                    - id: 5009
+                      name: Arte & Cultura
+            portal:
+                $ref: '#/components/schemas/portal'
     Problem:
       additionalProperties: false
       description: |-
@@ -478,7 +1077,11 @@ components:
           maxLength: 2048
           type: string
       type: object
-  securitySchemes: {}
+  securitySchemes:
+      bearerAuth:
+          type: http
+          scheme: bearer
+          bearerFormat: JWT
   parameters:
     lang:
       name: lang
