@@ -256,8 +256,37 @@ paths:
               - 72
             minimum: 24
             maximum: 72
-          description: 'I valori disponibili sono 24,48,72'
+          description: 'durata itinerario (ore). I valori disponibili sono 24,48,72'
           example: 48
+        - name: target
+          in: query
+          schema:
+              type: integer
+              format: int32
+          description: 'codice del target per il quale filtrare, consulta la tassonomia dei target'
+          example: 6001
+        - name: theme
+          in: query
+          schema:
+              type: integer
+              format: int32
+          description: 'codice del tematismo per il quale filtrare, consulta la tassonomia dei tematismi'
+          example: 5001
+        - name: prov
+          in: query
+          schema:
+              type: string
+              maxLength: 2
+          description: 'filtro per sigla della provincia'
+          example: BO
+        - name: comune
+          in: query
+          schema:
+              type: integer
+              format: int32
+          description: 'filtro per ID Comune, consulta la tassonomia dei comuni per l''elenco dei comuni supportati'
+          example: 194
+
         - $ref: '#/components/parameters/lang'
         - $ref: '#/components/parameters/limit'
         - $ref: '#/components/parameters/page'
