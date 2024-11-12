@@ -188,6 +188,7 @@ paths:
       summary: Events
       parameters:
         - $ref: '#/components/parameters/lang'
+        - $ref: '#/components/parameters/date'
         - $ref: '#/components/parameters/istat'
         - $ref: '#/components/parameters/city'
         - $ref: '#/components/parameters/prov'
@@ -344,7 +345,6 @@ paths:
       tags:
         - General
       summary: Images
-      description: Elenco delle immagini accessibili liberamente e inserite nel database di OpenLibrary
       parameters:
         - $ref: '#/components/parameters/limit'
         - $ref: '#/components/parameters/page'
@@ -368,6 +368,8 @@ paths:
             application/json: {}
       operationId: webcam-get
       parameters:
+        - $ref: '#/components/parameters/city'
+        - $ref: '#/components/parameters/prov'
         - $ref: '#/components/parameters/page'
         - $ref: '#/components/parameters/limit'
     parameters: []
@@ -1077,6 +1079,14 @@ components:
         maxLength: 23
       description: 'Data di aggiornamento. Vengono restituiti tutti i contenuti che siano stati modificati dopo la data inserita. La data va inserita in formato [rfc3339](https://www.ietf.org/rfc/rfc3339.txt)'
       example: '2020-10-06T07:20:50.50Z'
+    date:
+        name: date
+        in: query
+        schema:
+            type: string
+            maxLength: 10
+        description: 'Data evento'
+        example: '2020-10-06'
     query:
       name: query
       in: query
