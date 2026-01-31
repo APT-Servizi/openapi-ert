@@ -13,7 +13,6 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61366,"Welcome Room","Fidenza Village - Welcome Room",https://maps.app.goo.gl/9WQf3Mh1Nn1v41ar9,,,Fidenza,Parma,,,"44,8841891","10,0875187",Pubblico
 61367,IAT,"Fontanellato - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/UfSFXrsJaWU1QuKn8,,,Fontanellato,Parma,,,"44,8828179","10,1700153",Pubblico
 61368,"Welcome Room","Fontevivo - Welcome Room",https://maps.app.goo.gl/WoJqXLZSbu72qY8b9,,,Fontevivo,Parma,,,"44,8573272","10,1735648",Pubblico
-61369,IAT,"Fornovo di Taro - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/YoQujNBmUNYkQEHq6,,,"Fornovo di Taro",Parma,,,"44,6911053","10,0947914",Pubblico
 61370,IAT,"Langhirano - Torrechiara e Val Parma - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/tzb2uQu119GXGiGn8,,,Langhirano,Parma,,,"44,6559489","10,2717041",Pubblico
 61371,"IAT R","Parma - Ufficio Informazioni e Accoglienza Turistica (IAT-R) - ParmaWelcome",https://maps.app.goo.gl/KiprNT4GKTQaArsTA,,,Parma,Parma,,,"44,8035256","10,3248931",Pubblico
 61372,IAT,"Salsomaggiore Terme - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/9TdDGc1zt3WHgVdL6,,,"Salsomaggiore Terme",Parma,,,"44,815436","9,9773818",Pubblico
@@ -39,7 +38,6 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61393,"Welcome Room","Santa Sofia - Welcome Room",https://maps.app.goo.gl/ZE13D34VXqHK1zzT8,,,"Santa Sofia",Forlì-Cesena,,,"43,9475133","11,904822",Pubblico
 61394,"IAT Mobile","Sarsina - Ufficio Informazioni e Accoglienza Turistica (IAT mobile)",https://maps.app.goo.gl/Q3rBxH1tQYMb1FM39,,Annuale,Sarsina,Forlì-Cesena,,,"43,9191664","12,141353",Pubblico
 61395,"IAT Mobile","Verghereto - Ufficio Informazioni e Accoglienza Turistica (IAT mobile)",https://maps.app.goo.gl/DDd6zBmSTRUkiaCi9,,"Da Maggio a Ottobre",Verghereto,Forlì-Cesena,,,"43,7774315","12,0887996",Pubblico
-61396,IAT,"Argenta - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/qY1eiNraXpH5YnHj9,,,Argenta,Ferrara,,,"44,6142111","11,8356997",Pubblico
 61397,IAT,"Abbazia di Pomposa - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/vejUZtpFQ35DAiEk8,,,Codigoro,Ferrara,,,"44,8324863","12,1724385",Pubblico
 61398,"IAT R","Comacchio - Ufficio Informazioni e Accoglienza Turistica (IAT-R)",https://maps.app.goo.gl/m2xhMM7pkQX3Y6XW8,,,Comacchio,Ferrara,,,"44,6933066","12,1791415",Pubblico
 61399,"IAT Mobile","Lido degli Estensi - Ufficio Informazioni e Accoglienza Turistica (IAT mobile)",https://maps.app.goo.gl/tKMwDLtXSTFqsWTD6,,"Da aprile a metà settembre",Comacchio,Ferrara,,,"44,6630766","12,2415095",Pubblico
@@ -66,7 +64,7 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61420,"IAT Mobile","Marina di Ravenna - Ufficio Informazioni e Accoglienza Turistica (IAT mobile)",https://maps.app.goo.gl/SQsbetnsNaupkVTH9,,"Da giugno a settembre",Ravenna,Ravenna,,,"44,4851906","12,2765724",Pubblico
 61421,"IAT Mobile","Marina Romea - Ufficio Informazioni e Accoglienza Turistica (IAT mobile)",https://maps.app.goo.gl/wWfvysVnrKMR9WW97,,"Da giugno a settembre",Ravenna,Ravenna,,,"44,5150314","12,2707634",Pubblico
 61422,"IAT Mobile","Porto Corsini - Ufficio Informazioni e Accoglienza Turistica (IAT mobile)",https://maps.app.goo.gl/dsWGFExmH9JvFaFX9,,"Da giugno a settembre",Ravenna,Ravenna,,,"44,4938703","12,2758361",Pubblico
-61423,"IAT Mobile","Punta Marina - Ufficio Informazioni e Accoglienza Turistica (IAT mobile)",https://maps.app.goo.gl/9ynv5p4W4niz1cf79,,"Da giugno a settembre",Ravenna,Ravenna,,,"44,4415582","12,2925522",Pubblico
+61423,"IAT Mobile","Punta Marina Terme - Ufficio Informazioni e Accoglienza Turistica (IAT mobile)",https://maps.app.goo.gl/9ynv5p4W4niz1cf79,,"Da giugno a settembre",Ravenna,Ravenna,,,"44,4415582","12,2925522",Pubblico
 61424,IAT,"Riolo Terme - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/95rLi389A9GaEksKA,,,"Riolo Terme",Ravenna,,,"44,2756954","11,7215601",Pubblico
 61426,IAT,"Bellaria Igea Marina - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/BjdYA4MkNbjPspQ26,,,"Bellaria-Igea Marina",Rimini,,,"44,150265","12,4418585",Pubblico
 61427,"IAT Mobile","Cattolica - Ufficio Informazioni e Accoglienza Turistica (IAT mobile)",https://maps.app.goo.gl/HpVFjgHcgkvCgckw8,,"Da giugno a settembre",Cattolica,Rimini,,,"43,9670599","12,7398493",Pubblico
@@ -76,13 +74,12 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61431,"Welcome Room","Mondaino - Welcome Room",https://maps.app.goo.gl/YoDcLZUPzw4RdRDs8,,,Mondaino,Rimini,,,"43,8559875","12,6688697",Pubblico
 61432,"Welcome Room","Montefiore Conca - Welcome Room",https://maps.app.goo.gl/vVK6dALJyVaX8uuG7,,,"Montefiore Conca",Rimini,,,"43,8909781","12,609055",Pubblico
 61433,"Welcome Room","Montegridolfo - Welcome Room",https://maps.app.goo.gl/cciqdyK1gYC3udvB9,,,Montegridolfo,Rimini,,,"43,8587397","12,6870478",Pubblico
-61434,"Welcome Room","Novafeltria - Welcome Room",https://maps.app.goo.gl/EPbe6K5FHBLfbEoo6,,,Novafeltria,Rimini,,,"43,895935","12,2904135",Pubblico
 61435,"Welcome Room","Pennabilli - Welcome Room",https://maps.app.goo.gl/gd5A3HL57KkY8UQb8,,,Pennabilli,Rimini,,,"43,8168234","12,2626722",Pubblico
 61436,"IAT R","Riccione - Ufficio Informazioni e Accoglienza Turistica (IAT-R)",https://maps.app.goo.gl/CgDdemugKvzPzBHo8,,,Riccione,Rimini,,,"44,0026187","12,6546919",Pubblico
-61437,"Welcome Room","Rimini centro - Welcome Room",https://maps.app.goo.gl/KpNxweMGSTTBb9nq5,,,Rimini,Rimini,,,"44,0625865","12,5268756",Pubblico
+61437,"Welcome Room","Rimini centro - Welcome Room",https://maps.app.goo.gl/BespVDQm54zLcf6V7,,,Rimini,Rimini,,,"44,0613767","12,5635482",Pubblico
 61438,IAT,"Rimini Marina centro - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/JAYSh8cuxZZ5WGU76,,,Rimini,Rimini,,,"44,0712192","12,5749812",Pubblico
 61439,"IAT R","Rimini stazione - Ufficio Informazioni e Accoglienza Turistica (IAT-R)",https://maps.app.goo.gl/ifx32fgqL4XFEKnE8,,,Rimini,Rimini,,,"44,0638349","12,5715446",Pubblico
-61440,"IAT Mobile","Viserba - Ufficio Informazioni e Accoglienza Turistica (IAT mobile)",https://maps.app.goo.gl/qJXDdn9Ji9Xm1vib7,,,Rimini,Rimini,,,"44,0904357","12,5319525",Pubblico
+61440,"IAT Mobile","Viserba - Ufficio Informazioni e Accoglienza Turistica (IAT mobile)",https://maps.app.goo.gl/qJXDdn9Ji9Xm1vib7,,"da giugno a settembre",Rimini,Rimini,,,"44,0904357","12,5319525",Pubblico
 61441,"Welcome Room","San Giovanni in Marignano - Welcome Room",https://maps.app.goo.gl/j2QAXG91PCFSr9mU6,,,"San Giovanni in Marignano",Rimini,,,"43,9389483","12,7101999",Pubblico
 61442,IAT,"San Leo - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/bvMQbtwXThXPgeVh7,,,"San Leo",Rimini,,,"43,8967739","12,3407959",Pubblico
 61443,IAT,"Sant'Agata Feltria - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/BfXJuRRq4wpMMFBv7,,,"Sant'Agata Feltria",Rimini,,,"43,8641174","12,2058497",Pubblico
@@ -93,7 +90,6 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61448,"IAT R","Bologna - Ufficio Informazioni e Accoglienza Turistica (IAT-R) - Bologna Welcome",https://maps.app.goo.gl/dqY63X4mRc2Nob3y8,,,Bologna,Bologna,,,"44,4939903","11,3406011",Pubblico
 61449,IAT,"Dozza - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/ZbDv8fEXuVTvDD9A7,,,Dozza,Bologna,,,"44,358825","11,6250887",Pubblico
 61450,"Welcome Room","Imola - Welcome Room",https://maps.app.goo.gl/rk7CA1qknLbmzJZ18,,,Imola,Bologna,,,"44,353187","11,7108831",Pubblico
-61451,IAT,"Lizzano in Belvedere (Corno alle Scale) - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/wnSbVWHfhoKTxmWv9,,,"Lizzano in Belvedere",Bologna,,,"44,1661721","10,8731695",Pubblico
 61452,IAT,"Lizzano in Belvedere Vidiciatico (Corno alle Scale) - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/ARYv2CepxCJj4R6U8,,,"Lizzano in Belvedere",Bologna,,,"44,1706929","10,8729783",Pubblico
 61453,"Welcome Room","Marzabotto - Welcome Room",https://maps.app.goo.gl/4DcV3pvysZLvX7Pa9,,,Marzabotto,Bologna,,,"44,3411935","11,2016165",Pubblico
 61454,IAT,"Monghidoro - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/gR2hijqMqFNNKJgAA,,,Monghidoro,Bologna,,,"44,219318","11,3139194",Pubblico
@@ -103,7 +99,7 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61458,"IAT R","Sasso Marconi e Appennino bolognese - Ufficio Informazioni e Accoglienza Turistica (IAT-R)",https://maps.app.goo.gl/REP8TAPMGutMQGtw6,,,"Sasso Marconi",Bologna,,,"44,394695","11,2421543",Pubblico
 61459,"IAT R","Maranello - Terra di Motori - Ufficio Informazioni e Accoglienza Turistica (IAT-R)",https://maps.app.goo.gl/iRN89yVJfb9uoA3Q6,,,Maranello,Modena,,,"44,5301183","10,8585767",Pubblico
 61460,"IAT R","Modena - Ufficio Informazioni e Accoglienza Turistica (IAT-R)",https://maps.app.goo.gl/gUoRzr9Rg9op9k8p9,,,Modena,Modena,,,"44,6459079","10,9235745",Pubblico
-61461,"Welcome Room","Modena - Welcome Room",https://maps.app.goo.gl/E7ZvGBiwfceXB2Kz6,,,Modena,Modena,,,"44,6465489","10,924358",Pubblico
+61461,"Welcome Room","Modena - Welcome Room",https://maps.app.goo.gl/8kHAdkE1BuyBPexd9,,,Modena,Modena,,,"44,6465526","10,922062",Pubblico
 61462,"Welcome Room","Pavullo nel Frignano - Welcome Room",https://maps.app.goo.gl/LSuyqJZtGVzfYwfd6,,,"Pavullo nel Frignano",Modena,,,"44,3413242","10,8322985",Pubblico
 61463,IAT,"Sassuolo - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/JkjjEz5ARWHdSGqM7,,,Sassuolo,Modena,,,"44,5423588","10,7777462",Pubblico
 61464,IAT,"Sestola - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/WqXsxigshHDooFbNA,,,Sestola,Modena,,,"44,2293335","10,7685837",Pubblico
@@ -130,9 +126,6 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61485,"IAT diffuso","Castrocaro Terme e Terra del Sole - IAT Diffuso",,"Bar Calderone",,"Castrocaro Terme e Terra del Sole",Forlì-Cesena,"Via Luigi Benericetti",8,"44,1850343","11,9607972",Pubblico
 61486,"IAT diffuso","Forlimpopoli - IAT Diffuso",,"Edicola Amadori Errica e Eva & C. S.n.c.",,Forlimpopoli,Forlì-Cesena,"Largo Paolucci De Calboli",7,"44,1869163","12,1258194",Pubblico
 61487,"IAT diffuso","Forlimpopoli - IAT Diffuso",,"Edicola Siboni",,Forlimpopoli,Forlì-Cesena,Crocette,,"44,186477","12,1223841",Pubblico
-61488,"IAT diffuso","Forlimpopoli - IAT Diffuso",,"Fondazione Casa Artusi",,Forlimpopoli,Forlì-Cesena,"Andrea Costa",27,"44,1884369","12,1263368",Pubblico
-61489,"IAT diffuso","Forlimpopoli - IAT Diffuso",,"Galleria d?Arte A casa di Paola",,Forlimpopoli,Forlì-Cesena,"Andrea Costa",22,"44,1880847","12,1266216",Pubblico
-61490,"IAT diffuso","Alfonsine - IAT Diffuso",,"Azienda Galassi",,Alfonsine,Ravenna,"Via Roma",111,"44,496369","12,0524594",Pubblico
 61491,"IAT diffuso","Bagnacavallo - IAT Diffuso",,"Ecomuseo delle Erbe Palustri",,Bagnacavallo,Ravenna,"Via Giuseppe Ungaretti",1,"44,449433070603","12,049368065234",Pubblico
 61492,"IAT diffuso","Bagnacavallo - IAT Diffuso",,"Antico Convento San Francesco",,Bagnacavallo,Ravenna,"Via Cadorna",10,"44,4158608","11,972969",Pubblico
 61493,"IAT diffuso","Milano Marittima - IAT Diffuso",,"Casa delle Farfalle",,Cervia,Ravenna,"Via Jelenia Gora",6/D,"44,2783046","12,3363171",Pubblico
@@ -147,25 +140,20 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61503,"IAT diffuso","Bellaria-Igea Marina - IAT Diffuso",,"Emotion Travel Experience",,"Bellaria-Igea Marina",Rimini,"via Tibullo",40,"44,1334258","12,4822273",Pubblico
 61504,"IAT diffuso","Rimini - IAT Diffuso",,"Ristorante dallo zio",,Rimini,Rimini,"Via Santa Chiara",16,"44,0567753","12,5699139",Pubblico
 61505,"IAT diffuso","Rimini - IAT Diffuso",,"Osteria de borg",,Rimini,Rimini,"Via Forzieri",12,"44,0647963","12,5633407",Pubblico
-61506,"IAT diffuso","Rimini - IAT Diffuso",,Nudecrud,,Rimini,Rimini,"Viale Tiberio",27/29,"44,0646951","12,5630922",Pubblico
-61507,"IAT diffuso","Torre Pedrera - IAT Diffuso",,"Hotel Rosati",,Rimini,Rimini,"Viale San Salvador",190,"44,1123236","12,5059444",Pubblico
-61508,"IAT diffuso","Viserbella - IAT Diffuso",,"Hotel Palos",,Rimini,Rimini,"Viale Porto Palos",154,"44,1004024","12,5206056",Pubblico
+61506,"IAT diffuso","Rimini - IAT Diffuso",,Nudecrud,,Rimini,Rimini,"Viale Tiberio",27/29,"44,0645325","12,5629946",Pubblico
+61507,"IAT diffuso","Torre Pedrera - IAT Diffuso",,"Hotel Rosati",,Rimini,Rimini,"Viale San Salvador",190,"44,1122978","12,5059638",Pubblico
 61509,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Napoleon",,Rimini,Rimini,"Piazza C. Battisti",22,"44,0645108","12,571242",Pubblico
-61510,"IAT diffuso","Viserbella - IAT Diffuso",,"Hotel Life",,Rimini,Rimini,"Viale Porto Palos",34,"44,0935242","12,5299301",Pubblico
+61510,"IAT diffuso","Viserbella - IAT Diffuso",,"Hotel Life",,Rimini,Rimini,"Viale Porto Palos",34,"44,0934427","12,5300497",Pubblico
 61511,"IAT diffuso","Miramare - IAT Diffuso",,"Hotel dei Platani",,Rimini,Rimini,"Viale Oliveti",76,"44,031352","12,6195131",Pubblico
 61512,"IAT diffuso","Miramare - IAT Diffuso",,"Hotel Aurea",,Rimini,Rimini,"Viale Martinelli",7,"44,0308438","12,6209313",Pubblico
 61513,"IAT diffuso","Rimini - IAT Diffuso",,"I viaggi di Bianco e Blu",,Rimini,Rimini,"Piazza C. Battisti",1,"44,0635147","12,5747613",Pubblico
 61514,"IAT diffuso","Crevalcore - IAT Diffuso",,"Associazione nazionale Carabinieri in congedo",,Crevalcore,Bologna,"Via della Pace",361,"44,7187255","11,1526692",Pubblico
 61515,"IAT diffuso","Crevalcore - IAT Diffuso",,"Pro Loco Crevalcore Aps",,Crevalcore,Bologna,"viale Amendola",330,"44,7195986","11,1471475",Pubblico
 61516,"IAT diffuso","Crevalcore - IAT Diffuso",,"Motoclub Crevalcore Asd",,Crevalcore,Bologna,"via del Bottazzo",229,"44,7649651","11,1446109",Pubblico
-61517,"IAT diffuso","ZoZola Predosa Colli Bolognesi - IAT Diffuso",,"La Mandria",,"Zola Predosa",Bologna,"via Risorgimento",326,"44,4922429","11,2167545",Pubblico
 61518,"IAT diffuso","Zola Predosa Colli Bolognesi - IAT Diffuso",,"Cà La Ghironda Resort",,"Zola Predosa",Bologna,"Via Leonardo da Vinci",19/1,"44,4948239","11,1889479",Pubblico
 61519,"IAT diffuso","Valsamoggia Colli Bolognesi - IAT Diffuso",,"Pro Loco Savigno Aps",,Valsamoggia,Bologna,"Via Marconi - Savigno",29,"44,3894543","11,0738721",Pubblico
-61520,"IAT diffuso","Casalecchio di Reno Colli Bolognesi - IAT Diffuso",,"COPAPS Soc. coop. a R.L.",,"Casalecchio di Reno",Bologna,"Via Panoramica",36,"44,4681808","11,2854609",Pubblico
-61521,"IAT diffuso","Monte San Pietro Colli Bolognesi - IAT Diffuso",,"La Casola",,"Monte San Pietro",Bologna,"Via San Martino",22/D,"44,4903028","11,1563999",Pubblico
 61522,"IAT diffuso","Monte San Pietro Colli Bolognesi  - IAT Diffuso",,"Bar Due di Picche",,"Monte San Pietro",Bologna,"Via del Lavino",419/A,"44,4082986","11,1280847",Pubblico
 61523,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Agriturismo azienda agricola Ferrari Maria Rita",,Maranello,Modena,"Via S.Antonio",2,"44,5173223","10,8989597",Pubblico
-61524,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,Kika,,Maranello,Modena,"Via Claudia",212,"44,5272548","10,8630611",Pubblico
 61525,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Mercanti di sapori",,Maranello,Modena,"Via Teano",14,"44,5276783","10,8657504",Pubblico
 61526,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,Fotodigital,,"Fiorano Modenese",Modena,"Via Statale",31,"44,5338179","10,8400461",Pubblico
 61527,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Hotel Alexander",,"Fiorano Modenese",Modena,"Via Resistenza",46,"44,5334363","10,8457135",Pubblico
@@ -177,7 +165,6 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61533,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Il profumo dei Tigli B&B",,Formigine,Modena,"Via Vaccari",26,"44,6418402","10,9175993",Pubblico
 61534,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Hotel La Fenice",,Formigine,Modena,"Via Caduti sul Lavoro",12,"44,5727194","10,847694",Pubblico
 61535,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Al Ciocco snc",,Montefiorino,Modena,"Via Palloncino",2,"44,34737","10,56856",Pubblico
-61536,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Ride Appennino",,Montefiorino,Modena,"Via Provinciale Lama",84,"44,3459729","10,6354564",Pubblico
 61537,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Polisportiva Monchio ASD APS",,Palagano,Modena,"Via Panoramica",151/E,"44,2478706","10,7210891",Pubblico
 61538,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Locanda Cialamina SAS di Forti Enrica",,Palagano,Modena,"Palazzo Pierotti",38,"44,32397","10,64971",Pubblico
 61539,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Nuova Proloco Prignano S/S APS",,"Prignano sulla Secchia",Modena,"Via Allegretti",166,"44,4368453","10,6908299",Pubblico
@@ -193,7 +180,6 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61549,"IAT diffuso","Nonantola IAT Diffuso",,eGOeBIKE,,Nonantola,Modena,"Via Marconi",28,"44,6773364","11,0427815",Pubblico
 61550,"IAT diffuso","Nonantola IAT Diffuso",,"La Smorfia",,Nonantola,Modena,"Via Roma",48/50/52/54,"44,6788747","11,0411597",Pubblico
 61551,"IAT diffuso","Nonantola IAT Diffuso",,"Sorsi e Morsi",,Nonantola,Modena,"Via Roma",26-28,"44,6781449","11,0416011",Pubblico
-61552,"IAT diffuso","Nonantola IAT Diffuso",,"L?Uomo di Barbara",,Nonantola,Modena,"Via Roma",23/A,"44,678148","11,041744",Pubblico
 61553,"IAT diffuso","Unione Terre di Castelli IAT Diffuso",,"Museo dell'Aceto Balsamico Tradizionale di Modena APS",,Spilamberto,Modena,"Via Francesco Turati",28,"44,535057","11,0169474",Pubblico
 61554,"IAT diffuso","Unione Terre di Castelli IAT Diffuso",,"Centro visite Borgo dei Sassi R&B",,Guiglia,Modena,"Via Sassi",2000,"44,3898565","10,9504644",Pubblico
 61555,"IAT diffuso","Unione Terre di Castelli IAT Diffuso",,"Museo del Castagno e del Borlengo APS La Silucadora",,Zocca,Modena,"Via San Giacomo",724,"44,3415974","11,0181176",Pubblico
@@ -221,37 +207,54 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61626,"IAT diffuso","Fusignano - IAT Diffuso",,"Società agricola Randi",,Fusignano,Ravenna,"Via San Savino",113,"44,4922451","12,0036189",Pubblico
 61627,"IAT diffuso","Massa Lombarda - IAT Diffuso",,"Il chiosco di Massa",,"Massa Lombarda",Ravenna,"Piazza Andrea Costa",,"44,4480512","11,8279872",Pubblico
 61628,"IAT diffuso","Rimini - IAT Diffuso",,"Bagno Rudy 144",,Rimini,Rimini,"Lungomare Spadazzi - Miramare",,"44,0327634","12,6207395",Pubblico
-61629,"IAT diffuso","Rimini - IAT Diffuso",,"Bike Park",,Rimini,Rimini,"Via Dante Alighieri",51,"44,0565776","12,5713325",Pubblico
+61629,"IAT diffuso","Rimini - IAT Diffuso",,"Bike Park",,Rimini,Rimini,"Via Dante Alighieri",51,"44,0629747","12,5736406",Pubblico
 61630,"IAT diffuso","Rimini - IAT Diffuso",,"Bike Tour Rimini",,Rimini,Rimini,"Viale Regina Elena - Marina Centro",54,"44,0570424","12,5922459",Pubblico
 61631,"IAT diffuso","Rimini - IAT Diffuso",,"Bio Boutique Hotel Xu'",,Rimini,Rimini,"Via Metastasio - Marina Centro",3,"44,0586281","12,5887171",Pubblico
 61632,"IAT diffuso","Rimini - IAT Diffuso",,"Boutique Adele abbigliamento Edistyle",,Rimini,Rimini,"Via Porto Palos - Viserbella",74,"44,0956196","12,5270324",Pubblico
 61633,"IAT diffuso","Rimini - IAT Diffuso",,"Caffè dell'orto",,Rimini,Rimini,"Via Lucio Lando - San Giuliano mare",109/111,"44,0717865","12,5687739",Pubblico
-61634,"IAT diffuso","Rimini - IAT Diffuso",,"Distributore di benzina PB",,Rimini,Rimini,"Via Matteucci - Marina Centro",2,"44,0681996","12,5802352",Pubblico
-61635,"IAT diffuso","Rimini - IAT Diffuso",,"Enoteca Biberius",,Rimini,Rimini,"Via Ortaggi - Borgo San Giuliano",12,"44,0649636","12,5657618",Pubblico
+61634,"IAT diffuso","Rimini - IAT Diffuso",,"Distributore di benzina PB",,Rimini,Rimini,"Via Matteucci - Marina Centro",2,"44,0660928","12,5727635",Pubblico
+61635,"IAT diffuso","Rimini - IAT Diffuso",,"Enoteca Biberius",,Rimini,Rimini,"Via Ortaggi - Borgo San Giuliano",12,"44,0649319","12,5655756",Pubblico
 61636,"IAT diffuso","Rimini - IAT Diffuso",,"Il forno della Vecchia Pescheria",,Rimini,Rimini,"Piazza Gregorio da Rimini - Centro Storico",5,"44,0603495","12,5666512",Pubblico
 61637,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Acquazzurra",,Rimini,Rimini,"Via Misurata - Marina Centro",15,"44,0638985","12,5823268",Pubblico
-61638,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Admiral Art Hotel",,Rimini,Rimini,"Via Pascoli - Marina Centro",145,"44,0681996","12,5802352",Pubblico
+61638,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Admiral Art Hotel",,Rimini,Rimini,"Via Pascoli - Marina Centro",145,"44,0548862","12,5834014",Pubblico
 61639,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Airone",,Rimini,Rimini,"Viale Regina Elena - Marina Centro",201,"44,0570424","12,5922459",Pubblico
 61640,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Amicizia",,Rimini,Rimini,"Viale Regina Elena - Marina Centro",63,"44,0570424","12,5922459",Pubblico
 61641,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Arno",,Rimini,Rimini,"Via Martinelli - Miramare",9,"44,0306893","12,6207051",Pubblico
-61642,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Corallo",,Rimini,Rimini,"Viale Vespucci - Marina Centro",46,"44,0681996","12,5802352",Pubblico
+61642,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Corallo",,Rimini,Rimini,"Viale Vespucci - Marina Centro",46,"44,0670623","12,5814996",Pubblico
 61643,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Diana",,Rimini,Rimini,"Via Porto Palos - Viserbella",15,"44,0926021","12,5319529",Pubblico
 61644,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel fra i pini",,Rimini,Rimini,"Via Pedrizzi - Viserbella",13,"44,0935949","12,5283687",Pubblico
 61645,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Haarlem",,Rimini,Rimini,"Via Sarsina - Rivazzurra",7,"44,0354272","12,6156142",Pubblico
 61646,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Ischia",,Rimini,Rimini,"Via Siracusa - Marebello",17,"44,0432941","12,6057672",Pubblico
 61647,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Marselli",,Rimini,Rimini,"Via C. Zavagli - San Giuliano mare",77,"44,0709681","12,5607862",Pubblico
-61648,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Mercure Artis",,Rimini,Rimini,"Viale Vespucci -  Marina Centro",38,"44,0681996","12,5802352",Pubblico
+61648,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Mercure Artis",,Rimini,Rimini,"Viale Vespucci -  Marina Centro",38,"44,0670623","12,5814996",Pubblico
 61649,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Mercure Lungomare",,Rimini,Rimini,"Viale Vespucci - Marina Centro",18,"44,0670623","12,5814996",Pubblico
-61650,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Panoramic",,Rimini,Rimini,"Via Cimarosa - Viserba",1,"44,0836641","12,5441391",Pubblico
+61650,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Panoramic",,Rimini,Rimini,"Via Cimarosa - Viserba",1,"44,0838415","12,5444892",Pubblico
 61651,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel San Francisco spiaggia",,Rimini,Rimini,"Viale Regina Margherita - Rivazzurra",42,"44,038525","12,61466",Pubblico
 61652,"IAT diffuso","Rimini - IAT Diffuso",,"I-Suite Hotel",,Rimini,Rimini,"Viale Regina Elena - Marina Centro",28,"44,0570424","12,5922459",Pubblico
-61653,"IAT diffuso","Rimini - IAT Diffuso",,"Il circolino",,Rimini,Rimini,"Lungomare C. Tintori",9,"44,074386","12,5762184",Pubblico
+61653,"IAT diffuso","Rimini - IAT Diffuso",,"Il circolino",,Rimini,Rimini,"Lungomare C. Tintori",9,"44,0744016","12,5762233",Pubblico
 61654,"IAT diffuso","Rimini - IAT Diffuso",,"Martour Viaggi SAS",,Rimini,Rimini,"Viale Regina Margherita - Miramare",241,"44,032364","12,6200268",Pubblico
 61655,"IAT diffuso","Rimini - IAT Diffuso",,"Pixelcoop - Sapori di Quartiere",,Rimini,Rimini,"via Caduti di Marzabotto",,"44,0547267","12,5526415",Pubblico
 61656,"IAT diffuso","Rimini - IAT Diffuso",,"Residence Villa Azzurra",,Rimini,Rimini,"Via Pegli - Rivazzurra",17,"44,0375221","12,6110537",Pubblico
 61657,"IAT diffuso","Rimini - IAT Diffuso",,"Rimini Terme",,Rimini,Rimini,"Via Principe di Piemonte",56,"44,027277","12,6281129",Pubblico
-61658,"IAT diffuso","Rimini - IAT Diffuso",,"Ristorante AmoRimini",,Rimini,Rimini,"Lungomare Murri",15,"44,0654715","12,5843294",Pubblico
-61659,"IAT diffuso","Rimini - IAT Diffuso",,"Taddei e Mondaini Casalinghi",,Rimini,Rimini,"Michele Rosa",19,"44,0592268","12,5716886",Pubblico
-61660,"IAT diffuso","Rimini - IAT Diffuso",,"Torre Pedrera Hotels & Co.",,Rimini,Rimini,"Via San Salvador - Torre Pedrera",55,"44,1067353","12,5132203",Pubblico
-61661,"IAT diffuso","Rimini - IAT Diffuso",,"Trattoria La Marianna",,Rimini,Rimini,"Via Tiberio",19,"44,0644311","12,5633184",Pubblico
+61658,"IAT diffuso","Rimini - IAT Diffuso",,"Ristorante AmoRimini",,Rimini,Rimini,"Lungomare Murri",15,"44,0654869","12,5843259",Pubblico
+61659,"IAT diffuso","Rimini - IAT Diffuso",,"Taddei e Mondaini Casalinghi",,Rimini,Rimini,"Michele Rosa",19,"44,0591763","12,571849",Pubblico
+61660,"IAT diffuso","Rimini - IAT Diffuso",,"Torre Pedrera Hotels & Co.",,Rimini,Rimini,"Via San Salvador - Torre Pedrera",55,"44,1067507","12,5132336",Pubblico
+61661,"IAT diffuso","Rimini - IAT Diffuso",,"Trattoria La Marianna",,Rimini,Rimini,"Via Tiberio",19,"44,0644291","12,5632966",Pubblico
 61697,"IAT diffuso","Bagnacavallo - IAT Diffuso",,"Osteria Piazza Nova",,Bagnacavallo,Ravenna,"Piazza Nuova",22,"44,4147681","11,9780337",Pubblico
+66708,"Welcome Room","Cesenatico - Welcome Room",https://maps.app.goo.gl/M2SuFFXoJuxXaP3L8,,,Cesenatico,Forlì-Cesena,,,"41,6878844","8,1171175",Pubblico
+66709,"Welcome Room","Forlì - Welcome Room",https://maps.app.goo.gl/DyXgKpg73i2tZXRV8,,,Forlì,Forlì-Cesena,,,"44,2213793","12,0332336",Pubblico
+66711,"Welcome Room","Galeata - Welcome Room",https://maps.app.goo.gl/CSrb92P1XkLhYM6m6,,,Galeata,Forlì-Cesena,,,"43,9851322","11,9034874",Pubblico
+66713,"Welcome Room","Argenta - Welcome Room",https://maps.app.goo.gl/KUSRW6zmbXvwkiz39,,,Argenta,Ferrara,,,"44,6142259","11,8330783",Pubblico
+66717,"IAT R","Igea Marina - Welcome Room",https://maps.app.goo.gl/96cVovTgWZQfQxtFA,,,"Bellaria-Igea Marina",Rimini,,,"44,1358047","12,4747602",Pubblico
+66726,"Welcome Room","Rimini Aeroporto - Welcome Room",https://maps.app.goo.gl/kg6B4vyZkbwFPGoo7,,,Rimini,Rimini,,,"44,0251778","12,6131811",Pubblico
+66749,"Welcome Room","Saludecio - Welcome Room",https://maps.app.goo.gl/xArGhZQrhaZR2Qwe6,,,Saludecio,Rimini,,,"43,8723492","12,6663959",Pubblico
+66750,"Welcome Room","Bologna - Welcome  Room",https://maps.app.goo.gl/jKF3xKiKz1kL43A16,,,Bologna,Bologna,,,"44,5058295","11,3390217",Pubblico
+66752,"Welcome Room","Lizzano in Belvedere - Welcome Room",https://maps.app.goo.gl/ZwshQA9oQdUTTZdBA,,,"Lizzano in Belvedere",Bologna,,,"44,1616596","10,8910978",Pubblico
+66770,"IAT diffuso","Argelato - IAT Diffuso",,"Studio FuoribordoSrl c/o Infopoint Centergross - Blocco 5A Centergross",,Argelato,Bologna,"Via della Mercanzia",13,"44,5866145","11,3771931",Pubblico
+66771,"IAT diffuso","Bentivoglio - IAT Diffuso",,"Oasi La Rizza",,Bentivoglio,Bologna,"Via Bassa degli Albanelli",9-13,"44,6603608","11,4364316",Pubblico
+66772,"IAT diffuso","Bentivoglio - IAT Diffuso",,"La Locanda Smeraldi",,Bentivoglio,Bologna,"Via San Marina",47,"44,603127","11,417914",Pubblico
+66773,"IAT diffuso","Pieve di Cento - IAT Diffuso",,"Pro Loco Pieve di Cento - APS",,"Pieve di Cento",Bologna,"Piazza Andrea Costa",11,"44,7139266","11,3068046",Pubblico
+66774,"IAT diffuso","Argelato - IAT Diffuso",,"Ristorante La Grigliata",,Argelato,Bologna,"Via Casadio",31,"44,6174685","11,3300595",Pubblico
+66775,"IAT diffuso","Argelato - IAT Diffuso",,"Villa San Donino",,Argelato,Bologna,"Via Centese",278,"44,6663563","11,3076013",Pubblico
+66776,"IAT diffuso","Pieve di Cento - IAT Diffuso",,Fiorilinda,,"Pieve di Cento",Bologna,"Via Garibaldi",70,"44,7144305","11,3047641",Pubblico
+66777,"IAT diffuso","Pieve di Cento - IAT Diffuso",,"Convivio Bistrot",,"Pieve di Cento",Bologna,"Via Rizzoli",2,"44,7113615","11,3065741",Pubblico
