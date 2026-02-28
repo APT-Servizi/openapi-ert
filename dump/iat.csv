@@ -126,6 +126,7 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61485,"IAT diffuso","Castrocaro Terme e Terra del Sole - IAT Diffuso",,"Bar Calderone",,"Castrocaro Terme e Terra del Sole",Forlì-Cesena,"Via Luigi Benericetti",8,"44,1850343","11,9607972",Pubblico
 61486,"IAT diffuso","Forlimpopoli - IAT Diffuso",,"Edicola Amadori Errica e Eva & C. S.n.c.",,Forlimpopoli,Forlì-Cesena,"Largo Paolucci De Calboli",7,"44,1869163","12,1258194",Pubblico
 61487,"IAT diffuso","Forlimpopoli - IAT Diffuso",,"Edicola Siboni",,Forlimpopoli,Forlì-Cesena,Crocette,,"44,186477","12,1223841",Pubblico
+61490,"IAT diffuso","Alfonsine - IAT Diffuso",,"Labirinto Effimero",,Alfonsine,Ravenna,"Via Roma",111,"44,496369","12,0524594",Pubblico
 61491,"IAT diffuso","Bagnacavallo - IAT Diffuso",,"Ecomuseo delle Erbe Palustri",,Bagnacavallo,Ravenna,"Via Giuseppe Ungaretti",1,"44,449433070603","12,049368065234",Pubblico
 61492,"IAT diffuso","Bagnacavallo - IAT Diffuso",,"Antico Convento San Francesco",,Bagnacavallo,Ravenna,"Via Cadorna",10,"44,4158608","11,972969",Pubblico
 61493,"IAT diffuso","Milano Marittima - IAT Diffuso",,"Casa delle Farfalle",,Cervia,Ravenna,"Via Jelenia Gora",6/D,"44,2783046","12,3363171",Pubblico
@@ -189,9 +190,9 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61559,"IAT diffuso","Unione Terre di Castelli IAT Diffuso",,"La Fontana azienda agricola",,Spilamberto,Modena,"Via Ghiarole",54/a,"44,5418971","11,0236126",Pubblico
 61560,"IAT diffuso","Unione Terre di Castelli IAT Diffuso",,"Pro Loco Savignano sul Panaro",,"Savignano sul Panaro",Modena,"via crespellani",12,"44,4777879","11,0385171",Pubblico
 61561,"IAT digitale","Bertinoro - IAT Digitale",,,"Tutti i giorni dell'anno",Bertinoro,Forlì-Cesena,"Piazza della Libertà",3,"44,1494465","12,1356425",Pubblico
-61562,"IAT digitale","Copparo - IAT Digitale",,,,Copparo,Ferrara,"Via Roma",28,"44,8951794","11,8273852",Pubblico
-61563,"IAT digitale","Riva Del Po - IAT Digitale",,,,"Riva del Po",Ferrara,"Area Campeggio Mulino sul Po",,"44,9802988","11,9786833",Pubblico
-61564,"IAT digitale","Tresignana - IAT Digitale",,,,Tresigallo,Ferrara,"Piazza Italia",32,"44,8177087","11,8968098",Pubblico
+61562,"IAT digitale","Copparo - IAT Digitale",,,"Collocato all'aperto, fruibile h24",Copparo,Ferrara,"Piazza della Libertà",,"44,8944449","11,8273896",Pubblico
+61563,"IAT digitale","Riva Del Po - IAT Digitale",,,"Collocato all'aperto, fruibile h24",Ro,Ferrara,"Area sosta Camper -  Via Dazio 48",48,"44,951423","11,7602669",Pubblico
+61564,"IAT digitale","Tresignana - IAT Digitale",,,"Collocato all'aperto, fruibile h24",Tresigallo,Ferrara,"Piazza Italia",32,"44,8177087","11,8968098",Pubblico
 61565,"IAT digitale","Cervia - IAT Digitale",,,"Tutto l'anno",Cervia,Ravenna,"Viale della Stazione",36,"44,2587347","12,34726",Pubblico
 61566,"IAT digitale","Tagliata - IAT Digitale",,,"Tutto l'anno",Cervia,Ravenna,"Viale Italia",374,"44,2245092","12,3814266",Pubblico
 61567,"IAT digitale","Pinarella - IAT Digitale",,,"Da maggio a settembre",Cervia,Ravenna,"Via Tritone",15/b,"44,2411705","12,3635273",Pubblico
@@ -200,7 +201,6 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61619,"IAT diffuso","Forlimpopoli - IAT Diffuso",,"Edicola Ravaglioli",,Forlimpopoli,Forlì-Cesena,"Piazza Pompilio",26,"44,1875469","12,127339",Pubblico
 61620,"IAT diffuso","Forlimpopoli - IAT Diffuso",,"La nuova edicola di Elena Bartoli",,Forlimpopoli,Forlì-Cesena,"Della Madonna",1A,"44,1878637","12,128578",Pubblico
 61621,"IAT diffuso","Alfonsine - IAT Diffuso",,"Al gallo Trattoria e Locanda",,Alfonsine,Ravenna,"Piazza Vincenzo Monti",36-39,"44,5000548","12,0410779",Pubblico
-61622,"IAT diffuso","Alfonsine - IAT Diffuso",,"Le spighe - Non solo piadine",,Alfonsine,Ravenna,"Via Raspona",61/a,"44,5253028","12,0521094",Pubblico
 61623,"IAT diffuso","Bagnacavallo - IAT Diffuso",,"La cantina di Piazza Nuova",,Bagnacavallo,Ravenna,"Via Verdi",8,"44,4147988","11,9778699",Pubblico
 61624,"IAT diffuso","Cotignola - IAT Diffuso",,Giogiocaffè,,Cotignola,Ravenna,"Piazza Vittorio Emanuele II",7,"44,3848465","11,9427913",Pubblico
 61625,"IAT diffuso","Cotignola - IAT Diffuso",,"Ristorante Al Parco",,Cotignola,Ravenna,"Via Pertini",2,"44,3826158","11,9268599",Pubblico
@@ -246,6 +246,7 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 66711,"Welcome Room","Galeata - Welcome Room",https://maps.app.goo.gl/CSrb92P1XkLhYM6m6,,,Galeata,Forlì-Cesena,,,"43,9851322","11,9034874",Pubblico
 66713,"Welcome Room","Argenta - Welcome Room",https://maps.app.goo.gl/KUSRW6zmbXvwkiz39,,,Argenta,Ferrara,,,"44,6142259","11,8330783",Pubblico
 66717,"IAT R","Igea Marina - Welcome Room",https://maps.app.goo.gl/96cVovTgWZQfQxtFA,,,"Bellaria-Igea Marina",Rimini,,,"44,1358047","12,4747602",Pubblico
+66719,"IAT digitale","Misano Brasile - IAT Digitale",,,,"Misano Adriatico",Rimini,"piazza Venezia",,"43,9842147","12,6912719",Pubblico
 66726,"Welcome Room","Rimini Aeroporto - Welcome Room",https://maps.app.goo.gl/kg6B4vyZkbwFPGoo7,,,Rimini,Rimini,,,"44,0251778","12,6131811",Pubblico
 66749,"Welcome Room","Saludecio - Welcome Room",https://maps.app.goo.gl/xArGhZQrhaZR2Qwe6,,,Saludecio,Rimini,,,"43,8723492","12,6663959",Pubblico
 66750,"Welcome Room","Bologna - Welcome  Room",https://maps.app.goo.gl/jKF3xKiKz1kL43A16,,,Bologna,Bologna,,,"44,5058295","11,3390217",Pubblico
@@ -258,3 +259,76 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 66775,"IAT diffuso","Argelato - IAT Diffuso",,"Villa San Donino",,Argelato,Bologna,"Via Centese",278,"44,6663563","11,3076013",Pubblico
 66776,"IAT diffuso","Pieve di Cento - IAT Diffuso",,Fiorilinda,,"Pieve di Cento",Bologna,"Via Garibaldi",70,"44,7144305","11,3047641",Pubblico
 66777,"IAT diffuso","Pieve di Cento - IAT Diffuso",,"Convivio Bistrot",,"Pieve di Cento",Bologna,"Via Rizzoli",2,"44,7113615","11,3065741",Pubblico
+66778,"IAT diffuso","Campogalliano - IAT Diffuso",,"Museo della Bilancia",,Campogalliano,Modena,"Via Garibaldi",34/A,"44,6911351","10,8403222",Pubblico
+66779,"IAT diffuso","Campogalliano - IAT Diffuso",,"Casa Berselli - Circolo al Parco A. Goldoni APS",,Campogalliano,Modena,"Via Albone",14,"44,6692864","10,8267941",Pubblico
+66780,"IAT diffuso","Campogalliano - IAT Diffuso",,"Best Western Modena District",,Campogalliano,Modena,"Via del Passatore",160,"44,686279","10,8518394",Pubblico
+66781,"IAT diffuso","Carpi - IAT Diffuso",,"Eliotecnica Stermieri",,Carpi,Modena,"Via Trento Trieste",43,"44,7811354","10,8824311",Pubblico
+66782,"IAT diffuso","Carpi - IAT Diffuso",,"Nonno Pep",,Carpi,Modena,"Corso Cabassi",35/37,"44,7838455","10,8880241",Pubblico
+66783,"IAT diffuso","Carpi - IAT Diffuso",,"Mondadori Bookstore Carpi",,Carpi,Modena,"Piazza dei Martiri",8,"44,7830316","10,884582",Pubblico
+66784,"IAT diffuso","Carpi - IAT Diffuso",,"Nuovo Albergo Tuoring",,Carpi,Modena,"Via Darfo Dallai",1,"44,7832842","10,8893937",Pubblico
+66785,"IAT diffuso","Carpi - IAT Diffuso",,"Carpi Comics di Pantaleoni Marco",,Carpi,Modena,"Via Nova",45,"44,7816699","10,8851232",Pubblico
+66786,"IAT diffuso","Carpi  - IAT Diffuso",,"Hotel Gabarda",,Carpi,Modena,"Via Carlo Marx",172,"44,7586317","10,8709242",Pubblico
+66787,"IAT diffuso","Carpi - IAT Diffuso",,"Cantina di Santa Croce",,Carpi,Modena,"SS 468 di Correggio",35,"44,7711235","10,7753311",Pubblico
+66788,"IAT diffuso","Carpi - IAT Diffuso",,"Ex Campo di Fossoli",,Carpi,Modena,"Via Remesina esterna",32,"44,8287879","10,9020877",Pubblico
+66789,"IAT diffuso","Carpi - IAT Diffuso",,"Hotel Carpi",,Carpi,Modena,"Via delle Magliaie",2,"44,7767849","10,8608754",Pubblico
+66790,"IAT diffuso","Carpi - IAT Diffuso",,"Caseificio San Giorgio",,Carpi,Modena,"Via Zappiano",15,"44,7763948","10,8500775",Pubblico
+66791,"IAT diffuso","Carpi - IAT Diffuso",,"Musei di Palazzo dei Pio",,Carpi,Modena,"Piazza dei Martiri",68,"44,7829487","10,8856532",Pubblico
+66792,"IAT diffuso","Carpi - IAT Diffuso",,"URP - Ufficio Relazioni con il Pubblico del Comune di Carpi",,Carpi,Modena,"Via Berengario",4,"44,7824776","10,8843142",Pubblico
+66793,"IAT diffuso","Carpi - IAT Diffuso",,"Soho - Soho Home",,Carpi,Modena,"Corso Alberto Pio",38-40,"44,7810113","10,8839066",Pubblico
+66794,"IAT diffuso","Carpi - IAT Diffuso",,"Chalet 3.0 in piazzetta",,Carpi,Modena,"Piazza Garibaldi",29,"44,7839179","10,8797139",Pubblico
+66795,"IAT diffuso","Carpi - IAT Diffuso",,"Chalet al Parco",,Carpi,Modena,"Via Vittorio Veneto",2,"44,7862393","10,8798709",Pubblico
+66796,IAT,"Fanano - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/9ssgAUqNUvMThWrH6,,,Fanano,Modena,,,"44,2074371","10,7924316",Pubblico
+66797,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Edicola del centro di Paoletti Elisa",,"Fiorano Modenese",Modena,"Via Vittorio Veneto",25/A,"44,538912","10,8120309",Pubblico
+66798,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Santuario Beata Vergine del Castello",,"Fiorano Modenese",Modena,"Via Giovanni Paolo II",4,"44,5374956","10,8115684",Pubblico
+66800,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Camper Club Fiorano Modenese",,"Fiorano Modenese",Modena,"Via Cameazzo",6,"44,5399509","10,8270146",Pubblico
+66801,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Acetaia Leonardi",,Formigine,Modena,"Via Mazzacavallo",62,"44,5906129","10,8087663",Pubblico
+66802,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Azienda Agrituristica Sant'Antonio di Giusti Maria Elinda",,Formigine,Modena,"Via Sant'Antonio",49,"44,5611437","10,87206",Pubblico
+66803,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Azienda Agricola Rossi Barattini",,Formigine,Modena,"Via Giardini Sud",170,"44,5561817","10,8514765",Pubblico
+66804,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Hotel Corte degli Estensi",,Formigine,Modena,"Via Vandelli",7,"44,5790303","10,9098206",Pubblico
+66805,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Ristorante del Rio Srl",,Formigine,Modena,"Via Bassa Paolucci",55,"44,5909623","10,870426",Pubblico
+66806,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Valeri di Giacobazzi Valerio",,Formigine,Modena,"Via Eugenio Curiel",9,"44,5727194","10,847694",Pubblico
+66807,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"CM Italia srl",,Formigine,Modena,"Via San Pietro",22,"44,5746544","10,8480668",Pubblico
+66808,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Best Western Plus Hotel - C.I.T.E.S. S.p.A.",,Formigine,Modena,"Via Giardini Nord",438,"44,5976038","10,862637",Pubblico
+66809,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Villa Campestre",,Formigine,Modena,"Via Viazza di Sopra",6,"44,5467271","10,8664969",Pubblico
+66810,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"A. VDL società agricola",,Maranello,Modena,"Via Fogliano",165,"44,5054926","10,8460288",Pubblico
+66811,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Salumificio F.lli Guerzoni",,Maranello,Modena,"Via Fondo Valtiepido",12,"44,5129211","10,8780102",Pubblico
+66812,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Az. Agricola Casone di Sotto",,Maranello,Modena,"Via Prazecco",4,"44,5153682","10,908556",Pubblico
+66813,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Bersana Azienda Agricola di Riccardo Iaccheri",,Maranello,Modena,"Via Fogliano",161,"44,5075607","10,8489267",Pubblico
+66814,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Race Art 27 Maranello Srl",,Maranello,Modena,"Via Dino Ferrari",61,"44,5301459","10,8590661",Pubblico
+66815,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"La Bibulca",,Montefiorino,Modena,"Via Provinciale per Frassinoro",115,"44,3249359","10,6011403",Pubblico
+66816,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Warm Up di Ravazzini Carlo",,Maranello,Modena,"Via Dino Ferrari",41,"44,5301149","10,8627072",Pubblico
+66817,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Pushstart Srl",,Maranello,Modena,"Via Dino Ferrari",41,"44,5301149","10,8627072",Pubblico
+66818,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Planet Srl",,Maranello,Modena,"Via Giovanni Verga",22,"44,5320194","10,8637588",Pubblico
+66819,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Maranello Ristoranti - Carisma Pizzeria Ristorante",,Maranello,Modena,"Piazza Libertà",43,"44,5249402","10,8670478",Pubblico
+66820,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,Domus,,Maranello,Modena,"Piazza Libertà",38,"44,5248502","10,8671148",Pubblico
+66821,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Genko Srl Drake",,Maranello,Modena,"Via Nazionale",60,"44,5267036","10,8663502",Pubblico
+66822,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Dip Srl Terminal Caffè T3",,Maranello,Modena,"Via Grizzaga",53,"44,5323025","10,8740462",Pubblico
+66823,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"Villa Nuvola Suites",,"Fiorano Modenese",Modena,"Via Vittorio Alfieri",3,"44,534845","10,8213418",Pubblico
+66824,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"La Corte dei Cerri",,Frassinoro,Modena,"Via Spervera di Sotto",,"44,2816103","10,5827126",Pubblico
+66825,"IAT diffuso","Maranello - Terra di Motori IAT Diffuso",,"La Tana della Lavanda",,Montefiorino,Modena,"Via della Tana",10,"44,3543385","10,5952121",Pubblico
+66826,"IAT digitale","Modena - IAT Digitale",,,"Dal Martedì al venerdì: 9.30-13 /15.00-19.00; sabato domeniche e festivi: apertura 9.30 - 19.00.",Modena,Modena,"Piazza Mazzini",,"44,5513799","10,918048",Pubblico
+66827,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Tabaccheria 3 Sant",,Medolla,Modena,"Via Strada Statale",1292,"44,8670321","11,066238",Pubblico
+66828,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Pro Loco San Possidionio APS-ETS",,"San Possidonio",Modena,"Piazza Andreoli",39,"44,8916757","10,9961503",Pubblico
+66829,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Pro Loco San Felice APS",,"San Felice sul Panaro",Modena,"Via Mazzini",62,"44,8387799","11,1434846",Pubblico
+66830,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Medipark società agricola Mediplants",,"San Felice sul Panaro",Modena,"Via Perossaro",187,"44,8291322","11,1352944",Pubblico
+66831,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Tra le note libri e vinili Libreria",,"San Felice sul Panaro",Modena,"Via M.C Ascari",5,"44,8383548","11,1446271",Pubblico
+66832,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"GL Impianti srl",,"Concordia sulla Secchia",Modena,"Via Confine",80,"44,9546193","11,0084724",Pubblico
+66833,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Azienda Agricola tecnica vivai di Candini Luca",,Camposanto,Modena,"Ponte Picchietti",,"44,8189501","11,1085696",Pubblico
+66834,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Pro Loco Finale Emilia APS",,"Finale Emilia",Modena,"Via Cappuccini",15/A,"44,8304846","11,2919059",Pubblico
+66835,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Pop Tours Autoloneggi",,Camposanto,Modena,"Piazza Gramsci",5,"44,7873963","11,1395245",Pubblico
+66836,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Cooperativa sociale Caracol",,"Finale Emilia",Modena,"Via Garigliano",14,"44,8404347","11,3612098",Pubblico
+66837,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Giallo Tortellino",,"Finale Emilia",Modena,"Via Alessandro Volta",20,"44,8535993","11,2066654",Pubblico
+66838,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Rapsodia Pizzeria",,"San Felice sul Panaro",Modena,"Via Ascari",21,"44,8370526","11,1453812",Pubblico
+66839,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Soc. Cooperativa La bella sfilza",,"Concordia sulla Secchia",Modena,"Via Corriera",3,"44,9206049","10,9780573",Pubblico
+66840,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Soleluna Agenzia di Viaggi",,"San Felice sul Panaro",Modena,"Via Mazzini",88,"44,8385959","11,1443435",Pubblico
+66841,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Studio linguistico Union Jack",,"San Felice sul Panaro",Modena,"Via Risorgimento",3/5,"44,8385125","11,1432791",Pubblico
+66842,"IAT diffuso","Unione Comuni modenesi Area Nord -  IAT Diffuso",,"Tabaccheria Ivan",,Cavezzo,Modena,"Via Cavour",375,"44,822396","10,9949758",Pubblico
+66843,"IAT diffuso","Unione Terre di Castelli - IAT Diffuso",,"Il Castellaro ai sassi",,Guiglia,Modena,"Via Sassi",1700,"44,3891389","10,9505268",Pubblico
+66844,"IAT diffuso","Unione Terre di Castelli - IAT Diffuso",,"Lettere e Letture",,"Marano sul Panaro",Modena,"Piazza Matteotti",2,"44,455807","10,966668",Pubblico
+66845,"IAT diffuso","Unione Terre di Castelli - IAT Diffuso",,"Il timbro",,Spilamberto,Modena,"Piazza dei Caduti L.",7,"44,5340982","11,0239678",Pubblico
+66846,"IAT diffuso","Unione Terre di Castelli - IAT Diffuso",,"Gelateria Antartide",,"Castelnuovo Rangone",Modena,"Via Vandelli",20,"44,5760221","10,9076284",Pubblico
+66847,"IAT diffuso","Unione Terre di Castelli - IAT Diffuso",,"Fantasie golose",,Spilamberto,Modena,"Via Marconi",30,"44,5303534","11,0210497",Pubblico
+66848,"IAT diffuso","Unione Terre di Castelli - IAT Diffuso",,"Righetti 1911 di Righetti Enrico",,Zocca,Modena,"Via M. Tesi",1056,"44,346387","10,9944961",Pubblico
+66849,"IAT diffuso","Unione Terre di Castelli - IAT Diffuso",,"La Ca' del Non bioagriturismo L'alpenice",,"Savignano sul Panaro",Modena,"Via Monticelli",1090,"44,4882497","11,0504613",Pubblico
+66850,"IAT diffuso","Unione Terre di Castelli - IAT Diffuso",,"Hotel Arthur",,"Castelvetro di Modena",Modena,"Via Statale",204,"44,5285978","10,9219651",Pubblico
+66851,"IAT diffuso","Unione Terre di Castelli - IAT Diffuso",,"Gibellini Mariaelena e Cristina snc",,Spilamberto,Modena,"Piazza dei Caduti Libertà",41,"44,5334463","11,0242099",Pubblico
