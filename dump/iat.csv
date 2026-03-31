@@ -11,7 +11,7 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61364,"IAT R","Colorno e Sorbolo Mezzani - Ufficio Informazioni e Accoglienza Turistica (IAT-R)",https://maps.app.goo.gl/hbjMuvBiFusQPVANA,,,Colorno,Parma,,,"44,9304044","10,376563",Pubblico
 61365,"IAT R","Fidenza Casa Cremonini - Ufficio Informazioni e Accoglienza Turistica (IAT-R)",https://maps.app.goo.gl/rS2eNwTUoJMsW8ZS8,,,Fidenza,Parma,,,"44,866867","10,0547045",Pubblico
 61366,"Welcome Room","Fidenza Village - Welcome Room",https://maps.app.goo.gl/9WQf3Mh1Nn1v41ar9,,,Fidenza,Parma,,,"44,8841891","10,0875187",Pubblico
-61367,IAT,"Fontanellato - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/UfSFXrsJaWU1QuKn8,,,Fontanellato,Parma,,,"44,8828179","10,1700153",Pubblico
+61367,IAT,"Fontanellato - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/UfSFXrsJaWU1QuKn8,,,Fontanellato,Parma,,,"44,8828179","10,1700153",Bozza
 61368,"Welcome Room","Fontevivo - Welcome Room",https://maps.app.goo.gl/WoJqXLZSbu72qY8b9,,,Fontevivo,Parma,,,"44,8573272","10,1735648",Pubblico
 61370,IAT,"Langhirano - Torrechiara e Val Parma - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/tzb2uQu119GXGiGn8,,,Langhirano,Parma,,,"44,6559489","10,2717041",Pubblico
 61371,"IAT R","Parma - Ufficio Informazioni e Accoglienza Turistica (IAT-R) - ParmaWelcome",https://maps.app.goo.gl/KiprNT4GKTQaArsTA,,,Parma,Parma,,,"44,8035256","10,3248931",Pubblico
@@ -102,8 +102,7 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61461,"Welcome Room","Modena - Welcome Room",https://maps.app.goo.gl/8kHAdkE1BuyBPexd9,,,Modena,Modena,,,"44,6465526","10,922062",Pubblico
 61462,"Welcome Room","Pavullo nel Frignano - Welcome Room",https://maps.app.goo.gl/LSuyqJZtGVzfYwfd6,,,"Pavullo nel Frignano",Modena,,,"44,3413242","10,8322985",Pubblico
 61463,IAT,"Sassuolo - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/JkjjEz5ARWHdSGqM7,,,Sassuolo,Modena,,,"44,5423588","10,7777462",Pubblico
-61464,IAT,"Sestola - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/WqXsxigshHDooFbNA,,,Sestola,Modena,,,"44,2293335","10,7685837",Pubblico
-61465,IAT,"Carpi - Unione Terre d'Argine - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/7zx4FwGtS6e83sBp9,,,Carpi,Modena,,,"44,7832651","10,8835554",Pubblico
+61464,"IAT R","Sestola - Ufficio Informazioni e Accoglienza Turistica (IAT-R)",https://maps.app.goo.gl/WqXsxigshHDooFbNA,,,Sestola,Modena,,,"44,2349998","10,7722957",Pubblico
 61466,IAT,"Castelvetro di Modena - Unione Terre di Castelli - Ufficio Informazioni e Accoglienza Turistica (IAT)",https://maps.app.goo.gl/3i2yHC26drGtUg9d6,,,"Castelvetro di Modena",Modena,,,"44,503126","10,9405252",Pubblico
 61467,"IAT diffuso","Bagno di Romagna - IAT Diffuso",,"Agriturismo Coradosso",,"Bagno di Romagna",Forlì-Cesena,"Via Coradosso - Loc. Selvapiana",329,"43,8762908","12,0501616",Pubblico
 61468,"IAT diffuso","Bagno di Romagna - IAT Diffuso",,"Albergo Roma",,"Bagno di Romagna",Forlì-Cesena,"Via della Fonte",2,"43,8341171","11,9589971",Pubblico
@@ -245,7 +244,7 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 66709,"Welcome Room","Forlì - Welcome Room",https://maps.app.goo.gl/DyXgKpg73i2tZXRV8,,,Forlì,Forlì-Cesena,,,"44,2213793","12,0332336",Pubblico
 66711,"Welcome Room","Galeata - Welcome Room",https://maps.app.goo.gl/CSrb92P1XkLhYM6m6,,,Galeata,Forlì-Cesena,,,"43,9851322","11,9034874",Pubblico
 66713,"Welcome Room","Argenta - Welcome Room",https://maps.app.goo.gl/KUSRW6zmbXvwkiz39,,,Argenta,Ferrara,,,"44,6142259","11,8330783",Pubblico
-66717,"IAT R","Igea Marina - Welcome Room",https://maps.app.goo.gl/96cVovTgWZQfQxtFA,,,"Bellaria-Igea Marina",Rimini,,,"44,1358047","12,4747602",Pubblico
+66717,"Welcome Room","Igea Marina - Welcome Room",https://maps.app.goo.gl/96cVovTgWZQfQxtFA,,,"Bellaria-Igea Marina",Rimini,,,"44,1358047","12,4747602",Pubblico
 66719,"IAT digitale","Misano Brasile - IAT Digitale",,,,"Misano Adriatico",Rimini,"piazza Venezia",,"43,9842147","12,6912719",Pubblico
 66726,"Welcome Room","Rimini Aeroporto - Welcome Room",https://maps.app.goo.gl/kg6B4vyZkbwFPGoo7,,,Rimini,Rimini,,,"44,0251778","12,6131811",Pubblico
 66749,"Welcome Room","Saludecio - Welcome Room",https://maps.app.goo.gl/xArGhZQrhaZR2Qwe6,,,Saludecio,Rimini,,,"43,8723492","12,6663959",Pubblico
