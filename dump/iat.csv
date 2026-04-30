@@ -110,14 +110,12 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61470,"IAT diffuso","Bagno di Romagna - IAT Diffuso",,"Fattoria Ca' di Gianni",,"Bagno di Romagna",Forlì-Cesena,"via Cà di Gianni",159,"43,8530064","11,9883675",Pubblico
 61471,"IAT diffuso","Bagno di Romagna - IAT Diffuso",,"Hotel Tosco Romagnolo",,"Bagno di Romagna",Forlì-Cesena,"via del Popolo",2,"43,8329083","11,9580329",Pubblico
 61472,"IAT diffuso","Bagno di Romagna - IAT Diffuso",,"Idro Ecomuseo",,"Bagno di Romagna",Forlì-Cesena,"Borgo di Ridracoli",,"43,8851293","11,8350876",Pubblico
-61473,"IAT diffuso","Bagno di Romagna - IAT Diffuso",,"Il Lago Lungo",,"Bagno di Romagna",Forlì-Cesena,"Lago Lungo",,"43,8467257","12,0024036",Pubblico
 61474,"IAT diffuso","Bagno di Romagna - IAT Diffuso",,"Non solo bar",,"Bagno di Romagna",Forlì-Cesena,"via Fiorentina",44,"43,8330415","11,9581788",Pubblico
 61475,"IAT diffuso","Bagno di Romagna - IAT Diffuso",,"Orso Bianco",,"Bagno di Romagna",Forlì-Cesena,"via Pascoli",12,"43,8579747","11,9756878",Pubblico
 61476,"IAT diffuso","Bagno di Romagna - IAT Diffuso",,"Pizzeria Invito",,"Bagno di Romagna",Forlì-Cesena,"via dell'Orto",1,"43,8369178","11,9598163",Pubblico
 61477,"IAT diffuso","Bagno di Romagna - IAT Diffuso",,"Agriturismo Pratalbino",,"Bagno di Romagna",Forlì-Cesena,"via Crocedevoli",6,"43,8959685","11,9497675",Pubblico
 61478,"IAT diffuso","Bagno di Romagna - IAT Diffuso",,"RIifugio Trappisa di sotto",,"Bagno di Romagna",Forlì-Cesena,"Strabatenza - Trappisa di Sotto",21,"43,8691875","11,8879375",Pubblico
 61479,"IAT diffuso","Bagno di Romagna - IAT Diffuso",,"Ristorante Giardino",,"Bagno di Romagna",Forlì-Cesena,"Piazza Martiri 25 1944",12,"43,8577644","11,9758142",Pubblico
-61480,"IAT diffuso","Bagno di Romagna - IAT Diffuso",,"Centro Turistico Valbonella",,"Bagno di Romagna",Forlì-Cesena,Valbonella,38,"43,8578143","12,008986",Pubblico
 61481,"IAT diffuso","Castrocaro Terme e Terra del Sole - IAT Diffuso",,"Gran Caffè '900",,"Castrocaro Terme e Terra del Sole",Forlì-Cesena,"Viale Marconi",9,"44,1779687","11,9521486",Pubblico
 61482,"IAT diffuso","Castrocaro Terme e Terra del Sole - IAT Diffuso",,"Twelve Cafè",,"Castrocaro Terme e Terra del Sole",Forlì-Cesena,"Viale Marconi",19,"44,1735587","11,9484808",Pubblico
 61483,"IAT diffuso","Castrocaro Terme e Terra del Sole - IAT Diffuso",,"Ci voleva",,"Castrocaro Terme e Terra del Sole",Forlì-Cesena,"Viale Marconi",92,"44,1754347","11,9511696",Pubblico
@@ -130,17 +128,11 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61492,"IAT diffuso","Bagnacavallo - IAT Diffuso",,"Antico Convento San Francesco",,Bagnacavallo,Ravenna,"Via Cadorna",10,"44,4158608","11,972969",Pubblico
 61493,"IAT diffuso","Milano Marittima - IAT Diffuso",,"Casa delle Farfalle",,Cervia,Ravenna,"Via Jelenia Gora",6/D,"44,2783046","12,3363171",Pubblico
 61494,"IAT diffuso","Cervia - IAT Diffuso",,"Centro Visite Saline di Cervia",,Cervia,Ravenna,"Via Bova",61,"44,25368343088","12,341270785541",Pubblico
-61495,"IAT diffuso","Cervia - IAT Diffuso",,"Officine del Sale",,Cervia,Ravenna,"Via Evangelisti",2,"44,2625142","12,3503068",Pubblico
-61496,"IAT diffuso","Milano Marittima - IAT Diffuso",,"Spiaggia Bellettini 297",,Cervia,Ravenna,"Via VIII Traversa",22/24,"44,285353284989","12,350321148162",Pubblico
 61497,"IAT diffuso","Cervia - IAT Diffuso",,"Terme di Cervia",,Cervia,Ravenna,"Via Forlanini",16,"44,2730291","12,3288386",Pubblico
 61498,"IAT diffuso","Pinarella - IAT Diffuso",,"Spiaggia Bagno Stella",,Cervia,Ravenna,"Via Arenile Demaniale",77/78,"44,236253","12,3750051",Pubblico
 61500,"IAT diffuso","Lugo - IAT Diffuso",,"Hotel Ala d'Oro",,Lugo,Ravenna,"Corso Giacomo Matteotti",56,"44,4190612","11,9152086",Pubblico
 61501,"IAT diffuso","Bellaria-Igea Marina - IAT Diffuso",,"Fondazione Verdeblu",,"Bellaria-Igea Marina",Rimini,"via Panzini",80,"44,1494059","12,4626645",Pubblico
 61502,"IAT diffuso","Bellaria-Igea Marina - IAT Diffuso",,Turismhotels,,"Bellaria-Igea Marina",Rimini,"via Fermi",10,"44,1440056","12,4617919",Pubblico
-61503,"IAT diffuso","Bellaria-Igea Marina - IAT Diffuso",,"Emotion Travel Experience",,"Bellaria-Igea Marina",Rimini,"via Tibullo",40,"44,1334258","12,4822273",Pubblico
-61504,"IAT diffuso","Rimini - IAT Diffuso",,"Ristorante dallo zio",,Rimini,Rimini,"Via Santa Chiara",16,"44,0567753","12,5699139",Pubblico
-61505,"IAT diffuso","Rimini - IAT Diffuso",,"Osteria de borg",,Rimini,Rimini,"Via Forzieri",12,"44,0647963","12,5633407",Pubblico
-61506,"IAT diffuso","Rimini - IAT Diffuso",,Nudecrud,,Rimini,Rimini,"Viale Tiberio",27/29,"44,0645325","12,5629946",Pubblico
 61507,"IAT diffuso","Torre Pedrera - IAT Diffuso",,"Hotel Rosati",,Rimini,Rimini,"Viale San Salvador",190,"44,1122978","12,5059638",Pubblico
 61509,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Napoleon",,Rimini,Rimini,"Piazza C. Battisti",22,"44,0645108","12,571242",Pubblico
 61510,"IAT diffuso","Viserbella - IAT Diffuso",,"Hotel Life",,Rimini,Rimini,"Viale Porto Palos",34,"44,0934427","12,5300497",Pubblico
@@ -210,37 +202,25 @@ id,type,name,url,structure_name,opening,city,province,address,number,lat,lng,sta
 61630,"IAT diffuso","Rimini - IAT Diffuso",,"Bike Tour Rimini",,Rimini,Rimini,"Viale Regina Elena - Marina Centro",54,"44,0570424","12,5922459",Pubblico
 61631,"IAT diffuso","Rimini - IAT Diffuso",,"Bio Boutique Hotel Xu'",,Rimini,Rimini,"Via Metastasio - Marina Centro",3,"44,0586281","12,5887171",Pubblico
 61632,"IAT diffuso","Rimini - IAT Diffuso",,"Boutique Adele abbigliamento Edistyle",,Rimini,Rimini,"Via Porto Palos - Viserbella",74,"44,0956196","12,5270324",Pubblico
-61633,"IAT diffuso","Rimini - IAT Diffuso",,"Caffè dell'orto",,Rimini,Rimini,"Via Lucio Lando - San Giuliano mare",109/111,"44,0717865","12,5687739",Pubblico
-61634,"IAT diffuso","Rimini - IAT Diffuso",,"Distributore di benzina PB",,Rimini,Rimini,"Via Matteucci - Marina Centro",2,"44,0660928","12,5727635",Pubblico
-61635,"IAT diffuso","Rimini - IAT Diffuso",,"Enoteca Biberius",,Rimini,Rimini,"Via Ortaggi - Borgo San Giuliano",12,"44,0649319","12,5655756",Pubblico
-61636,"IAT diffuso","Rimini - IAT Diffuso",,"Il forno della Vecchia Pescheria",,Rimini,Rimini,"Piazza Gregorio da Rimini - Centro Storico",5,"44,0603495","12,5666512",Pubblico
-61637,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Acquazzurra",,Rimini,Rimini,"Via Misurata - Marina Centro",15,"44,0638985","12,5823268",Pubblico
 61638,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Admiral Art Hotel",,Rimini,Rimini,"Via Pascoli - Marina Centro",145,"44,0548862","12,5834014",Pubblico
 61639,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Airone",,Rimini,Rimini,"Viale Regina Elena - Marina Centro",201,"44,0570424","12,5922459",Pubblico
 61640,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Amicizia",,Rimini,Rimini,"Viale Regina Elena - Marina Centro",63,"44,0570424","12,5922459",Pubblico
-61641,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Arno",,Rimini,Rimini,"Via Martinelli - Miramare",9,"44,0306893","12,6207051",Pubblico
 61642,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Corallo",,Rimini,Rimini,"Viale Vespucci - Marina Centro",46,"44,0670623","12,5814996",Pubblico
 61643,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Diana",,Rimini,Rimini,"Via Porto Palos - Viserbella",15,"44,0926021","12,5319529",Pubblico
 61644,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel fra i pini",,Rimini,Rimini,"Via Pedrizzi - Viserbella",13,"44,0935949","12,5283687",Pubblico
 61645,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Haarlem",,Rimini,Rimini,"Via Sarsina - Rivazzurra",7,"44,0354272","12,6156142",Pubblico
 61646,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Ischia",,Rimini,Rimini,"Via Siracusa - Marebello",17,"44,0432941","12,6057672",Pubblico
-61647,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Marselli",,Rimini,Rimini,"Via C. Zavagli - San Giuliano mare",77,"44,0709681","12,5607862",Pubblico
 61648,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Mercure Artis",,Rimini,Rimini,"Viale Vespucci -  Marina Centro",38,"44,0670623","12,5814996",Pubblico
 61649,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Mercure Lungomare",,Rimini,Rimini,"Viale Vespucci - Marina Centro",18,"44,0670623","12,5814996",Pubblico
 61650,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel Panoramic",,Rimini,Rimini,"Via Cimarosa - Viserba",1,"44,0838415","12,5444892",Pubblico
-61651,"IAT diffuso","Rimini - IAT Diffuso",,"Hotel San Francisco spiaggia",,Rimini,Rimini,"Viale Regina Margherita - Rivazzurra",42,"44,038525","12,61466",Pubblico
-61652,"IAT diffuso","Rimini - IAT Diffuso",,"I-Suite Hotel",,Rimini,Rimini,"Viale Regina Elena - Marina Centro",28,"44,0570424","12,5922459",Pubblico
 61653,"IAT diffuso","Rimini - IAT Diffuso",,"Il circolino",,Rimini,Rimini,"Lungomare C. Tintori",9,"44,0744016","12,5762233",Pubblico
 61654,"IAT diffuso","Rimini - IAT Diffuso",,"Martour Viaggi SAS",,Rimini,Rimini,"Viale Regina Margherita - Miramare",241,"44,032364","12,6200268",Pubblico
-61655,"IAT diffuso","Rimini - IAT Diffuso",,"Pixelcoop - Sapori di Quartiere",,Rimini,Rimini,"via Caduti di Marzabotto",,"44,0547267","12,5526415",Pubblico
 61656,"IAT diffuso","Rimini - IAT Diffuso",,"Residence Villa Azzurra",,Rimini,Rimini,"Via Pegli - Rivazzurra",17,"44,0375221","12,6110537",Pubblico
 61657,"IAT diffuso","Rimini - IAT Diffuso",,"Rimini Terme",,Rimini,Rimini,"Via Principe di Piemonte",56,"44,027277","12,6281129",Pubblico
-61658,"IAT diffuso","Rimini - IAT Diffuso",,"Ristorante AmoRimini",,Rimini,Rimini,"Lungomare Murri",15,"44,0654869","12,5843259",Pubblico
-61659,"IAT diffuso","Rimini - IAT Diffuso",,"Taddei e Mondaini Casalinghi",,Rimini,Rimini,"Michele Rosa",19,"44,0591763","12,571849",Pubblico
 61660,"IAT diffuso","Rimini - IAT Diffuso",,"Torre Pedrera Hotels & Co.",,Rimini,Rimini,"Via San Salvador - Torre Pedrera",55,"44,1067507","12,5132336",Pubblico
 61661,"IAT diffuso","Rimini - IAT Diffuso",,"Trattoria La Marianna",,Rimini,Rimini,"Via Tiberio",19,"44,0644291","12,5632966",Pubblico
 61697,"IAT diffuso","Bagnacavallo - IAT Diffuso",,"Osteria Piazza Nova",,Bagnacavallo,Ravenna,"Piazza Nuova",22,"44,4147681","11,9780337",Pubblico
-66708,"Welcome Room","Cesenatico - Welcome Room",https://maps.app.goo.gl/M2SuFFXoJuxXaP3L8,,,Cesenatico,Forlì-Cesena,,,"41,6878844","8,1171175",Pubblico
+66708,"Welcome Room","Cesenatico - Welcome Room",https://maps.app.goo.gl/H97uvKRmTLk3eDKLA,,,Cesenatico,Forlì-Cesena,,,"44,1957775","12,1158548",Pubblico
 66709,"Welcome Room","Forlì - Welcome Room",https://maps.app.goo.gl/DyXgKpg73i2tZXRV8,,,Forlì,Forlì-Cesena,,,"44,2213793","12,0332336",Pubblico
 66711,"Welcome Room","Galeata - Welcome Room",https://maps.app.goo.gl/CSrb92P1XkLhYM6m6,,,Galeata,Forlì-Cesena,,,"43,9851322","11,9034874",Pubblico
 66713,"Welcome Room","Argenta - Welcome Room",https://maps.app.goo.gl/KUSRW6zmbXvwkiz39,,,Argenta,Ferrara,,,"44,6142259","11,8330783",Pubblico
