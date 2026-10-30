@@ -1,4 +1,4 @@
-openapi: 3.0.2
+openapi: 3.0.3
 x-commons:
   ratelimit-headers:
     X-RateLimit-Limit:
@@ -27,6 +27,17 @@ info:
     La sezione **General** raccoglie tutti gli endpoint disponibili del portale Emilia Romagna Turismo a cui è possibile richiedere dati.
     La sezione **Tassonomie** espone la struttura interna del Portale Emilia Romagna Turismo secondo cui è possibile filtrare le proprie richieste all’API.
 
+    **⚠️ AVVISO IMPORTANTE DI MIGRAZIONE SERVIZI ⚠️**
+
+    Informiamo tutti gli sviluppatori e gli utilizzatori che le API di Emilia Romagna Turismo sono in fase di transizione verso il nuovo portale istituzionale **visitemiliaromagna.it**, il cui rilascio definitivo è previsto tra circa 3 mesi.
+
+    **Azione richiesta per la continuità del servizio:**
+    Per gestire questa fase di intermezzo e prepararsi allo spegnimento del servizio attuale, è stato attivato un endpoint di transizione. Vi invitiamo ad aggiornare tempestivamente i vostri sistemi modificando l'URL base delle richieste verso il seguente ambiente di staging:
+
+    👉 **`https://stage.emiliaromagnaturismo.it`**
+
+    *Nota tecnica:* Il reindirizzamento richiede esclusivamente l'aggiornamento dell'URL di base (host). Il resto della sintassi, gli endpoint specifici, i metodi HTTP, i parametri e le logiche di autenticazione rimangono strettamente invariati.
+    
   version: 1.0.0
   termsOfService: 'https://emiliaromagnaturismo.it/it/note-legali'
   contact:
@@ -47,6 +58,9 @@ tags:
 servers:
   - url: 'https://emiliaromagnaturismo.it/opendata/v1'
     description: Servizio ufficiale opendata turistici della Regione Emilia Romagna
+    
+  - url: https://stage.emiliaromagnaturismo.it/v1
+    description: Endpoint temporaneo di transizione (Staging)
 paths:
   /status:
     get:
